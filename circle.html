@@ -1,0 +1,211 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="homepageApp">
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
+    today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
+    experience this site.</p>
+<![endif]-->
+
+<script src="components/d3/d3.min.js"></script>
+<style>
+
+    path {
+        stroke: #fff;
+        fill-rule: evenodd;
+    }
+
+</style>
+<script>
+var w = 560,
+    h = 500,
+    r = 250,
+    color = d3.scale.category20c();
+
+var partition = d3.layout.partition()
+    .size([2 * Math.PI, r])
+    .value(function(d) { return d.size; });
+
+var arc = d3.svg.arc()
+    .startAngle(function(d) { return d.x; })
+    .endAngle(function(d) { return d.x + d.dx; })
+    .innerRadius(function(d) { return d.y; })
+    .outerRadius(function(d) { return d.y + d.dy; });
+
+var svg = d3.select("body").append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+    .append("svg:g")
+    .attr("transform", "translate(" + w / 2 + "," + h / 2 + ")");
+
+group = svg.data([getData()]).selectAll("path")
+    .data(partition.nodes)
+    .enter().append('svg:g');
+
+//path variable is required by magnify function
+path = group.append("svg:path")
+    .attr("d", arc)
+    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+    .on("click", magnify)
+    .each(stash);
+
+var text = group.append("text");
+    text.attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+        .attr("dy", ".35em")
+        .style("text-anchor", "middle")
+        .text(function(d) { return d.name; });
+
+
+// Distort the specified node to 80% of its parent.
+function magnify(node) {
+    if (parent = node.parent) {
+        var parent,
+            x = parent.x,
+            k = .7;
+        parent.children.forEach(function(sibling) {
+            x += reposition(sibling, x, sibling === node
+                ? parent.dx * k / node.value
+                : parent.dx * (1 - k) / (parent.value - node.value));
+        });
+    } else {
+        reposition(node, 0, node.dx / node.value);
+    }
+
+    svg.selectAll("text")
+        .transition()
+        .duration(750)
+        .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+
+
+    path.transition()
+        .duration(750)
+        .attrTween("d", arcTween);
+}
+
+// Recursively reposition the node at position x with scale k.
+function reposition(node, x, k) {
+    node.x = x;
+    if (node.children && (n = node.children.length)) {
+        var i = -1, n;
+        while (++i < n) x += reposition(node.children[i], x, k);
+    }
+    return node.dx = node.value * k;
+}
+
+// Stash the old values for transition.
+function stash(d) {
+    d.x0 = d.x;
+    d.dx0 = d.dx;
+}
+
+// Interpolate the arcs in data space.
+function arcTween(a) {
+    var i = d3.interpolate({x: a.x0, dx: a.dx0}, a);
+    return function(t) {
+        var b = i(t);
+        a.x0 = b.x;
+        a.dx0 = b.dx;
+        return arc(b);
+    };
+}
+
+function getData() {
+    return {
+        "name": "parent",
+        "children": [
+            {
+                "name": "child1",
+                "children": [
+                    {
+                        "name": "child11",
+                        "children": [
+                            {"name": "child111", "size": 20},
+                            {"name": "child111", "size": 20}
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "jghjads",
+                "children": [
+                    {
+                        "name": "child11",
+                        "children": [
+                            {"name": "child111", "size": 40},
+                            {"name": "child111", "size": 40}
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "ytrjhg",
+                "children": [
+                    {
+                        "name": "child11",
+                        "children": [
+                            {"name": "child111", "size": 8},
+                            {"name": "child111", "size": 25}
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "uyt4gfh",
+                "children": [
+                    {
+                        "name": "child11",
+                        "children": [
+                            {"name": "child111", "size": 8},
+                            {"name": "child111", "size": 25}
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="components/es5-shim/es5-shim.js"></script>
+<script src="components/json3/lib/json3.min.js"></script>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="container" ng-view></div>
+
+<script src="components/angular/angular.js"></script>
+<script src="components/angular-resource/angular-resource.js"></script>
+<script src="components/angular-cookies/angular-cookies.js"></script>
+
+<!-- build:js scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+
+<!-- endbuild -->
+
+
+</body>
+</html>
