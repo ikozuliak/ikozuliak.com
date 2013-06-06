@@ -10,25 +10,23 @@
 // Grays
 // -------------------------
 $black:                 #000 !default;
-$grayDarker:            #222 !default;
-$grayDark:              #333 !default;
-$gray:                  #555 !default;
-$grayLight:             #999 !default;
-$grayLighter:           #eee !default;
+$grayDark:              #3e4c59 !default;
+$gray:                  #dee5e9 !default;
+$grayLight:             #ecf1f4 !default;
+$grayLighter:            #f0f4f6 !default;
 $white:                 #fff !default;
 
 
 // Accent colors
 // -------------------------
 $blue:                  #049cdb !default;
-$blueDark:              #0064cd !default;
 $green:                 #46a546 !default;
 $red:                   #9d261d !default;
 $yellow:                #ffc40d !default;
-$orange:                #f89406 !default;
+$orange:                #fe4400 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
-
+$baseColor:             #1b2430 !default;
 
 // Scaffolding
 // -------------------------
@@ -104,7 +102,7 @@ $btnDangerBackground:               #ee5f5b !default;
 $btnDangerBackgroundHighlight:      #bd362f !default;
 
 $btnInverseBackground:              #444 !default;
-$btnInverseBackgroundHighlight:     $grayDarker !default;
+$btnInverseBackgroundHighlight:     $grayDark !default;
 
 
 // Forms
@@ -112,7 +110,7 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 $inputBackground:               $white !default;
 $inputBorder:                   #ccc !default;
 $inputBorderRadius:             $baseBorderRadius !default;
-$inputDisabledBackground:       $grayLighter !default;
+$inputDisabledBackground:       $grayLight !default;
 $formActionsBackground:         #f5f5f5 !default;
 $inputHeight:                   $baseLineHeight + 10px; // base line-height + 8px vertical padding + 2px top/bottom border
 
@@ -162,7 +160,7 @@ $placeholderText:         $grayLight !default;
 
 // Hr border color
 // -------------------------
-$hrBorder:                $grayLighter !default;
+$hrBorder:                $grayLight !default;
 
 
 // Horizontal forms & lists
@@ -223,7 +221,7 @@ $paginationActiveBackground:          #f5f5f5 !default;
 
 // Hero unit
 // -------------------------
-$heroUnitBackground:              $grayLighter !default;
+$heroUnitBackground:              $grayLight !default;
 $heroUnitHeadingColor:            inherit !default;
 $heroUnitLeadColor:               inherit !default;
 

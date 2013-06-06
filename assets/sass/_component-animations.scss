@@ -2,21 +2,65 @@
 // Component animations
 // --------------------------------------------------
 
-
 .fade {
-  opacity: 0;
-  @include transition(opacity .15s linear);
-  &.in {
-    opacity: 1;
-  }
+    opacity: 0;
+    @include transition(opacity .15s linear);
+    &.in {
+        opacity: 1;
+    }
 }
 
 .collapse {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  @include transition(height .35s ease);
-  &.in {
-    height: auto;
-  }
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    @include transition(height .35s ease);
+    &.in {
+        height: auto;
+    }
+}
+
+.page-leave, .page-enter {
+    @include transition(all .8s linear);
+}
+
+.transition-container {
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+
+}
+
+.page {
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    background: $white;
+}
+
+.page-enter {
+    @include animation(rotatePullBottom .7s ease);
+
+}
+
+.page-enter.page-enter-active {
+
+
+}
+
+.page-leave {
+    @include animation(rotatePushTop .7s ease);
+}
+
+.page-leave.page-leave-active {
+
 }

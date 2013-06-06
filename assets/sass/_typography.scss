@@ -1,0 +1,34 @@
+h1, h2, h3, h4 {
+    font-family: Arvo;
+
+    &.border-bottom {
+        border-bottom: 1px solid $gray;
+        padding-bottom: 1em;
+    }
+}
+
+h1 {
+    font-size: 8.571em;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: .3em;
+
+    &:before {
+        content: '/';
+        position: absolute;
+        color: $orange;
+        left: -.6em;
+    }
+}
+
+h4 {
+    font: 1.286em/1.3em 'PT Serif';
+    margin: 1.5em 0;
+}
+
+p{
+    line-height: 1.5em;
+    padding: 0 0 1.3em;
+
+}
