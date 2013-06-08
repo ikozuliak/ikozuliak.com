@@ -17,17 +17,18 @@ angular.module('homepageApp')
         var w = 720,
             h = 720,
             r = 360,
-            color = d3.scale.category20c();
+            color = d3.scale.category10();
+
 
         var partition = d3.layout.partition()
             .size([2 * Math.PI, r])
             .value(function(d) { return d.size; });
 
         var arc = d3.svg.arc()
-            .startAngle(function(d) { return d.x; })
+            .startAngle(function(d) { return d.x -.01; })
             .endAngle(function(d) { return d.x + d.dx; })
             .innerRadius(function(d) { return d.y; })
-            .outerRadius(function(d) { return d.y + d.dy; });
+            .outerRadius(function(d) { return d.y + d.dy + 1; });
 
         var svg = d3.select("#sunburst").append("svg:svg")
             .attr("width", w)
@@ -42,7 +43,7 @@ angular.module('homepageApp')
 //path variable is required by magnify function
         var path = group.append("svg:path")
             .attr("d", arc)
-            .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+            .style("fill", function(d) {return d.color || "#bcc5c9" })
             .on("click", magnify)
             .each(stash);
 
@@ -50,7 +51,32 @@ angular.module('homepageApp')
         text.attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
             .attr("dy", ".35em")
             .style("text-anchor", "middle")
-            .text(function(d) { return d.name; });
+            .text(function(d) { return d.name });
+
+
+
+
+        var arc = d3.svg.arc()
+            .innerRadius(150)
+            .outerRadius(180)
+            .startAngle(0)
+            .endAngle(-3.14/2)
+
+        var path = svg.append("path")
+            .attr("d", arc)
+            .attr("id", "path1")
+            .attr("transform", "translate(200,200)")
+            .attr("fill","#ccf")
+
+
+        var text = svg.append("text")
+            .attr("x", 0)
+            .attr("dy", 10);
+
+        text.append("textPath")
+            .attr("stroke","black")
+            .attr("xlink:href","#path1")
+            .text("abc");
 
 
 // Distort the specified node to 80% of its parent.
@@ -108,56 +134,60 @@ angular.module('homepageApp')
 
         function getData() {
             return {
-                "name": "parent",
+                "name": "HTML5",
+                "color": "#1b2430",
                 "children": [
                     {
-                        "name": "child1",
+                        "name": "JavaScript",
+                        "color": "#fe4400",
                         "children": [
                             {
                                 "name": "child11",
                                 "children": [
-                                    {"name": "child111", "size": 20},
-                                    {"name": "child111", "size": 20}
-
+                                    {"name": "child111", "size": 60}
                                 ]
                             }
                         ]
                     },
                     {
-                        "name": "jghjads",
+                        "name": "CASCADING STYLESHEETS",
+                        "color": "#ffffff",
                         "children": [
                             {
-                                "name": "child11",
+                                "name": "",
+                                "color": "#ecf1f4",
                                 "children": [
-                                    {"name": "child111", "size": 40},
-                                    {"name": "child111", "size": 40}
-
+                                    {"name": "", "size": 20}
+                                ]
+                            },
+                            {
+                                "name": "Preprocessing",
+                                "color": "#ecf1f4",
+                                "children":[
+                                    {"name": "Less", "size": 7},
+                                    {"name": "Sass", "size": 7},
+                                    {"name": "Stylus", "size": 6}
+                                ]
+                            },
+                            {
+                                "name": "CSS3",
+                                "color": "#1b2430",
+                                "children": [
+                                    {"name": "Animations", "size": 20}
                                 ]
                             }
+
                         ]
                     },
+
                     {
-                        "name": "ytrjhg",
+                        "name": "html5",
+                        "color": "#606d7a",
                         "children": [
                             {
                                 "name": "child11",
                                 "children": [
-                                    {"name": "child111", "size": 8},
-                                    {"name": "child111", "size": 25}
-
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "uyt4gfh",
-                        "children": [
-                            {
-                                "name": "child11",
-                                "children": [
-                                    {"name": "child111", "size": 8},
-                                    {"name": "child111", "size": 25}
-
+                                    {"name": "child111", "size": 60}
                                 ]
                             }
                         ]

@@ -138,7 +138,6 @@ body {
 
 .landing-page {
     padding-top:7.5em;
-    text-shadow: 4px 0 0px #fff, -4px 0 0px #fff, 0 -4px 0px #fff, 0 4px 0px #fff;
 
     .hello{
 
@@ -154,6 +153,10 @@ body {
     .hello {
         font: 1.714em/1.5em Arvo;
         text-transform: uppercase;
+    }
+
+    .overlay{
+        display: inline-block;
     }
 }
 
@@ -220,19 +223,25 @@ body {
 
 .sunburst-container{
     position: absolute;
+    width:720px;
+    height:720px;
     right:0;
     top:0;
     z-index: -1;
-    overflow: hidden;;
+    overflow: hidden;
     cursor: pointer;
 
+    text{
+        font-family: Arvo;
+        text-transform: uppercase;
+    }
+
     svg{
-        position: relative;
+        position: absolute;
         right:-40px;
     }
 
     path {
-        stroke: #fff;
         fill-rule: evenodd;
     }
 }
