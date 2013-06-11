@@ -223,17 +223,19 @@ body {
 
 .sunburst-container{
     position: absolute;
-    width:720px;
-    height:720px;
+    width:820px;
+    height:820px;
     right:0;
-    top:0;
+    top:-50px;
     z-index: -1;
     overflow: hidden;
     cursor: pointer;
 
-    text{
+    text, textpath{
         font-family: Arvo;
-        text-transform: uppercase;
+        font-size:13px;
+        letter-spacing: 10;
+        kernel: 20px;
     }
 
     svg{
@@ -244,4 +246,34 @@ body {
     path {
         fill-rule: evenodd;
     }
+
+    .angular{
+        font-size:12px;
+    }
+
+    .html5{
+        fill: #fff;
+        font-size:20px;
+    }
+
+    .preprocessing{
+        font-size:18px;
+    }
+
+    .mvvc{
+        font-size:18px;
+    }
+
+    .javascript{
+        fill: #fff;
+        font-size:20px;
+    }
+    .css{
+        font-size:22px;
+    }
+    .css3{
+        fill: #fff;
+        font-size:20px;
+    }
+
 }
