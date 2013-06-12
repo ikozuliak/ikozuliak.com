@@ -22,13 +22,56 @@ h1 {
     }
 }
 
+h2{
+    font:2.286em Arvo;
+    margin: 1em 0;
+
+}
+
 h4 {
     font: 1.286em/1.3em 'PT Serif';
     margin: 1.5em 0;
 }
 
+h5{
+    font:bold 15px PTSerif;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs,
+.subheader{
+    margin-bottom: 1em;
+    font: bold 2.286em Arvo;
+
+    a, h3 {
+        display: inline-block;
+    }
+    a {
+        font: bold .75em Arvo;
+        text-transform: uppercase;
+        color: $baseColor;
+    }
+
+    h3 {
+        font: bold 1em Arvo;
+        text-transform: uppercase;
+
+        &:before {
+            content: '/ ';
+            color: $orange;
+        }
+    }
+}
+
 p{
+    font-size:14px;
     line-height: 1.5em;
     padding: 0 0 1.3em;
 
+}
+
+a{
+    font-size:14px;
+    color: $orange;
 }

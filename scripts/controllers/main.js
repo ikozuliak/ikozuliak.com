@@ -82,7 +82,7 @@ angular.module('homepageApp')
                 return "#" + d.name
             })
             .text(function (d) {
-//                return d.name
+                return d.name
             })
             .attr("method", "align")
             .attr("spacing", "exact")
@@ -98,6 +98,11 @@ angular.module('homepageApp')
                 .duration(1500)
                 .ease("back")
                 .attr("transform", "translate(" + w / 2 + "," + h / 2 + "), rotate( " + angle + ")")
+
+            svg.selectAll("textPath")
+                .transition()
+                .duration(450)
+                .attr("opacity", "0")
         }
 
 // Distort the specified node to 80% of its parent.

@@ -1,2 +1,8 @@
-
+@for $i from 1 through 20 {
+    @media (max-width: 1200px - $i*10) {
+        body {
+            font-size: 14px - $i/4;
+        }
+    }
+}
 

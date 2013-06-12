@@ -10,5 +10,9 @@ angular.module('homepageApp', [])
             .when('/labs', {
                 templateUrl:'views/labs.html',
                 controller:'MainCtrl'
+            })
+            .when('/about', {
+                templateUrl:'views/about.html',
+                controller:'MainCtrl'
             });
     });

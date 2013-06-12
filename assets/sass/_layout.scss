@@ -42,122 +42,7 @@ body {
     left:144px;
     right:0;
     overflow: hidden;
-}
 
-.page{
-    @include box-sizing(border-box);
-
-    position: absolute;
-    left: 0;
-    height: 100%;
-    overflow: auto;
-    width: 100%;
-    padding: 5em 160px 0 100px;
-}
-
-.navbar {
-    background: $grayLighter;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 144px;
-    z-index:10;
-
-    nav {
-        margin-top: 12em;
-
-        li {
-            list-style: none;
-
-            &.current,
-            &:hover {
-                a {
-                    color: $white;
-
-                    &:after {
-                        width: 100%;
-                        @include opacity(100);
-                    }
-                }
-            }
-
-            a {
-                @include transition(color .4s cubic-bezier(0.895, 0.030, 0.685, 0.220));
-
-                text-align: left;
-                font: bold 1em Arvo;
-                display: block;
-                padding: .9em 2em .8em;
-                text-decoration: none;
-                color: $baseColor;
-                position: relative;
-                z-index: 1;
-
-                &:after {
-                    @include transition(width .4s cubic-bezier(0.895, 0.030, 0.685, 0.220), opacity .4s linear);
-                    @include opacity(0);
-
-                    content: '';
-                    background: $baseColor;
-                    display: block;
-                    width: 0;
-                    top: 0;
-                    bottom: 0;
-                    position: absolute;
-                    left: 0;
-                    z-index: -1;
-                }
-            }
-        }
-    }
-}
-
-.breadcrumbs {
-    margin-bottom: 1em;
-
-    a, h3 {
-        display: inline-block;
-    }
-    a {
-        font: bold 1.286em Arvo;
-        text-transform: uppercase;
-        color: $baseColor;
-    }
-    h3 {
-        font: bold 2.286em Arvo;
-        text-transform: uppercase;
-
-        &:before {
-            content: '/ ';
-            color: $orange;
-        }
-    }
-}
-
-.landing-page {
-    padding-top:7.5em;
-
-    .hello{
-
-    }
-
-    h1 {
-        margin-bottom: .2em;
-    }
-    h2 {
-        font-size: 1.2em;
-    }
-
-    .hello {
-        font: 1.714em/1.5em Arvo;
-        text-transform: uppercase;
-    }
-
-    .overlay{
-        display: inline-block;
-    }
 }
 
 .like{
@@ -176,15 +61,14 @@ body {
     }
 
     li{
+        @include box-shadow(0 0 6px rgba(0, 0, 0, 0.1));
+
         font: bold 20px Arvo;
         text-transform: uppercase;
         color: $orange;
 
         list-style: none;
         position: relative;
-        -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
         height:40px;
         line-height: 40px;
         padding: 0 1em;
@@ -194,6 +78,9 @@ body {
 
         &:before,
         &:after {
+            @include box-shadow(0 15px 10px rgba(0, 0, 0, 0.4));
+            @include transform(rotate(-3deg));
+
             z-index: -1;
             position: absolute;
             content: "";
@@ -203,77 +90,13 @@ body {
             top: 10px;
             max-width: 300px;
             background: rgba(0, 0, 0, 0.5);
-            -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
-            -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
-            box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
-            -webkit-transform: rotate(-3deg);
-            -moz-transform: rotate(-3deg);
-            -o-transform: rotate(-3deg);
         }
 
         &:after {
-            -webkit-transform: rotate(3deg);
-            -moz-transform: rotate(3deg);
-            -o-transform: rotate(3deg);
+            @include transform(rotate(3deg));
+
             right: 5px;
             left: auto;
         }
     }
-}
-
-.sunburst-container{
-    position: absolute;
-    width:820px;
-    height:820px;
-    right:0;
-    top:-50px;
-    z-index: -1;
-    overflow: hidden;
-    cursor: pointer;
-
-    text, textpath{
-        font-family: Arvo;
-        font-size:13px;
-        letter-spacing: 10;
-        kernel: 20px;
-    }
-
-    svg{
-        position: absolute;
-        right:-40px;
-    }
-
-    path {
-        fill-rule: evenodd;
-    }
-
-    .angular{
-        font-size:12px;
-    }
-
-    .html5{
-        fill: #fff;
-        font-size:20px;
-    }
-
-    .preprocessing{
-        font-size:18px;
-    }
-
-    .mvvc{
-        font-size:18px;
-    }
-
-    .javascript{
-        fill: #fff;
-        font-size:20px;
-    }
-    .css{
-        font-size:22px;
-    }
-    .css3{
-        fill: #fff;
-        font-size:20px;
-    }
-
 }

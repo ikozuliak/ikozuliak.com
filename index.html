@@ -29,8 +29,8 @@
     <nav>
         <ul>
             <li ng-class="navClass('home')"><a href="#/">home</a></li>
-            <li><a href="/">about me</a></li>
-            <li><a href="/">work</a></li>
+            <li ng-class="navClass('about')"><a href="#/about">about me</a></li>
+            <li ng-class="navClass('work')"><a href="#/work">work</a></li>
             <li ng-class="navClass('labs')"><a href="#/labs">labs</a></li>
         </ul>
     </nav>
@@ -54,8 +54,6 @@
 <!-- build:js scripts/scripts.js -->
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
-<script src="scripts/perfect_markup.user.js"></script>
-
 <!-- endbuild -->
 
 
