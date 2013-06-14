@@ -14,5 +14,9 @@ angular.module('homepageApp', [])
             .when('/about', {
                 templateUrl:'views/about.html',
                 controller:'MainCtrl'
+            })
+            .otherwise({
+                templateUrl:'views/404.html',
+                controller:'EmptyPage'
             });
     });

@@ -1,4 +1,4 @@
-.page{
+.page {
     @include box-sizing(border-box);
 
     position: absolute;
@@ -9,19 +9,20 @@
 
     padding: 5em 5% 100px 8em;
 
-    & > *:last-child{
+    & > *:last-child {
         margin-bottom: 3em;
     }
 
-    img.pull-left{
+    img.pull-left {
         margin: 0 20px 20px 0;
     }
 }
 
 .page-landing {
-    padding-top:7.5em;
+    overflow: hidden;
+    padding-top: 7.5em;
 
-    .hello{
+    .hello {
     }
 
     h1 {
@@ -37,41 +38,97 @@
         text-transform: uppercase;
     }
 
-    .overlay{
+    .overlay {
         display: inline-block;
         z-index: 1;
         position: relative;
 
-
-        &:after{
+        &:after {
             content: '';
             position: absolute;
-            left:-100%;
-            right:-20px;
-            top:-100%;
-            bottom:-100%;
-            background: rgba(255,255,255, .7);
+            left: -100%;
+            right: -20px;
+            top: -100%;
+            bottom: -100%;
+            background: rgba(255, 255, 255, .7);
             z-index: -1;
         }
     }
 }
 
-.page-about{
-    aside{
+.page-about {
+    aside {
         float: left;
         margin: 0 20px 0 0;
+        max-width: 333px;
+        width: 30%;
+        min-width: 220px;
 
-        img{
-            margin-bottom: 2em;
+        @include respond-to(hideNav) {
+            min-width: 170px;
         }
-        h5{
+
+        @include respond-to(handhelds) {
+            max-width: 100%;
+        }
+
+        img {
+            margin-bottom: 1.5em;
+        }
+
+        h5 {
             padding-bottom: .5em;
+        }
+
+        .socials {
+            position: relative;
+            top: -3px;
+            padding-bottom: 1em;
+
+            @include respond-to(hideNav) {
+                padding: 1.5em 0;
+                top: .5em;
+            }
+
+            @include respond-to(handhelds) {
+                padding: 0 0 1em;
+                top: -2px;
+            }
+
+            a {
+                margin-right: .5em;
+            }
+        }
+
+        p {
+            @include respond-to(hideNav) {
+                font-size: 13px;
+            }
         }
 
     }
 
-    .page-content{
+    .page-content {
         overflow: hidden;
-        max-width:560px;
+        max-width: 500px;
+    }
+}
+
+.page-404 {
+    position: absolute;
+    width: 30em;
+    height: 20em;
+    left: 50%;
+    top: 50%;
+    margin-left: -18em;
+    margin-top: -15em;
+
+    .floating {
+        @include box-shadow(0 0 25px rgba(255,255,255, .5));
+
+        background: #fff;
+        width: 30em;
+        height: 15em;
+        padding: 5em;;
     }
 }

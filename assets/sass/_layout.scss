@@ -43,38 +43,34 @@ body {
     right:0;
     overflow: hidden;
 
+    @include respond-to(hideNav){
+        left:0;
+    }
+
 }
 
 .like{
-    margin: 2.5em 0 0;
-    font: 1.714em/1.5em Arvo;
-
-    ul{
-        display: inline-block;
-        position: relative;
-        top: -2px;
-        margin-left: .5em;
-    }
+    margin: 2em 0 0;
+    position: relative;
+    font-size:1.5em;
 
     h3{
-        display: inline-block;
+        position: absolute;
+        top:50%;
+        left:0;
+        height:1em;
+        margin: -.75em 0 0;
     }
 
-    li{
-        @include box-shadow(0 0 6px rgba(0, 0, 0, 0.1));
+    ul{
+        @include box-shadow(0 0 6px rgba(0, 0, 0, 0.2));
 
-        font: bold 20px Arvo;
-        text-transform: uppercase;
-        color: $orange;
-
-        list-style: none;
         position: relative;
-        height:40px;
-        line-height: 40px;
-        padding: 0 1em;
         display: inline-block;
+        margin-left: 5em;
         background:#fff;
-        text-align:center;
+        width:10em;
+        height:2.75em;
 
         &:before,
         &:after {
@@ -84,7 +80,7 @@ body {
             z-index: -1;
             position: absolute;
             content: "";
-            bottom: 18px;
+            bottom: 10px;
             left: 5px;
             width: 47%;
             top: 10px;
@@ -98,5 +94,30 @@ body {
             right: 5px;
             left: auto;
         }
+    }
+
+    h3{
+        display: inline-block;
+    }
+
+    li{
+
+
+        text-transform: uppercase;
+        top:0;
+        width: 10em;
+        height:1.5em;
+        padding: .75em 0 .5em;
+        text-align: center;
+        font-weight: bold;
+        font-family: Arvo;
+        list-style: none;
+        position: absolute;
+        display: inline-block;
+        background:#f0f4f6;
+        color: $baseColor;
+        text-align:center;
+
+
     }
 }

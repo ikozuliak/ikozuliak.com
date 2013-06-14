@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- endbuild -->
-    <script src="components/d3/d3.min.js"></script>
 </head>
 <body ng-app="homepageApp">
 <!--[if lt IE 7]>
@@ -24,8 +23,8 @@
     experience this site.</p>
 <![endif]-->
 
-<div class="navbar" ng-controller="MainCtrl">
-    <a class="logo" href="#"></a>
+<div class="navbar">
+    <a class="logo" href="#/"></a>
     <nav>
         <ul>
             <li ng-class="navClass('home')"><a href="#/">home</a></li>
@@ -38,20 +37,18 @@
 
 <section id="content" class="transition-container"
          ng-view
-         ng-animate="{enter: 'pt-page-rotatePullBottom', leave: 'pt-page-rotatePushTop'}">
+         ng-animate="{enter: 'page-toBottom', leave: 'page-toTop'}">
 </section>
 
 
 <!--[if lt IE 9]>
 <script src="components/es5-shim/es5-shim.js"></script>
-<script src="components/json3/lib/json3.min.js"></script>
 <![endif]-->
 
-<script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
-<script src="components/angular-resource/angular-resource.js"></script>
-<script src="components/angular-cookies/angular-cookies.js"></script>
-
 <!-- build:js scripts/scripts.js -->
+<script src="components/angular/angular.min.js"></script>
+<script src="components/Breezko/breezko.js"></script>
+<script src="components/d3/d3.min.js"></script>
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <!-- endbuild -->

@@ -28,10 +28,10 @@
 
 @mixin respond-to($media) {
     @if $media == handhelds {
-        @media only screen and (max-width: $screenBreak + 1) { @content; }
+        @media only screen and (max-width: $screenBreak) { @content; }
     }
-    @else if $media == wide-screen {
-        @media only screen and (min-width: $screenBreak) { @content; }
+    @else if $media == hideNav {
+        @media only screen and (max-width: $screenHideNav) { @content; }
     }
 }
 
