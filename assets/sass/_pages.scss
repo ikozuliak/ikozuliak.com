@@ -124,11 +124,42 @@
     margin-top: -15em;
 
     .floating {
-        @include box-shadow(0 0 25px rgba(255,255,255, .5));
+        @include box-shadow(0 0 25px rgba(255, 255, 255, .5));
 
         background: #fff;
         width: 30em;
         height: 15em;
         padding: 5em;;
+    }
+}
+
+.breadcrumbs,
+.subheader,
+.page-item header {
+    margin-bottom: 0;
+    font: bold 2.286em Arvo;
+
+    a, h3 {
+        display: inline-block;
+    }
+
+    & > a,
+    &> span {
+        font: bold .65em Arvo;
+        text-transform: uppercase;
+        color: $baseColor;
+    }
+
+    h3 a,
+    h3 {
+        font: bold 1em Arvo;
+        text-transform: uppercase;
+        color: $baseColor;
+    }
+    h3 {
+        &:before {
+            content: '/ ';
+            color: $orange;
+        }
     }
 }

@@ -39,30 +39,7 @@ h5{
     padding: 0;
 }
 
-.breadcrumbs,
-.subheader{
-    margin-bottom: 1em;
-    font: bold 2.286em Arvo;
 
-    a, h3 {
-        display: inline-block;
-    }
-    a {
-        font: bold .75em Arvo;
-        text-transform: uppercase;
-        color: $baseColor;
-    }
-
-    h3 {
-        font: bold 1em Arvo;
-        text-transform: uppercase;
-
-        &:before {
-            content: '/ ';
-            color: $orange;
-        }
-    }
-}
 
 p{
     font-size:14px;
