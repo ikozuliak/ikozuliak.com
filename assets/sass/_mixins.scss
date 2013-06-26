@@ -660,6 +660,7 @@
 @mixin grid-fluid($fluidGridColumnWidth, $fluidGridGutterWidth) {
     .row {
         width: 100%;
+        margin-left: 0;
         @include clearfix();
         [class*="span"] {
             @include input-block-level();

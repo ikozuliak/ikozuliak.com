@@ -81,18 +81,18 @@
         }
 
         .socials {
-            position: relative;
-            top: -3px;
+
+            margin-top: -3px;
             padding-bottom: 1em;
 
             @include respond-to(hideNav) {
                 padding: 1.5em 0;
-                top: .5em;
+                margin-top: .5em;
             }
 
             @include respond-to(handhelds) {
                 padding: 0 0 1em;
-                top: -2px;
+                margin-top: -2px;
             }
 
             a {
@@ -111,6 +111,34 @@
     .page-content {
         overflow: hidden;
         max-width: 500px;
+    }
+}
+
+.page-item{
+    @include clearfix();
+
+    max-width: 600px;
+    margin-bottom: 20px;
+
+    & > img.pull-left{
+        max-width: 160px;
+
+        @include respond-to(hideNav) {
+            max-width: 130px;
+        }
+
+        @include respond-to(handhelds) {
+            float:none ;
+            max-width: 100%;
+            width: auto ;
+            margin:0 auto ;
+            display: block;
+        }
+    }
+
+    p{
+        overflow: hidden;
+        padding: 2em 0 0 ;
     }
 }
 
@@ -139,6 +167,10 @@
     margin-bottom: 0;
     font: bold 2.286em Arvo;
 
+    @include respond-to(hideNav) {
+        font-size: 26px;
+    }
+
     a, h3 {
         display: inline-block;
     }
@@ -148,6 +180,7 @@
         font: bold .65em Arvo;
         text-transform: uppercase;
         color: $baseColor;
+        margin-right: .75em;
     }
 
     h3 a,
@@ -157,8 +190,15 @@
         color: $baseColor;
     }
     h3 {
+
+        a:hover{
+            text-decoration: underline !important;
+        }
+
         &:before {
             content: '/ ';
+            margin-left: -.5em;
+            position: absolute;
             color: $orange;
         }
     }

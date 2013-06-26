@@ -9,6 +9,11 @@
     padding-left: $gridGutterWidth;
 }
 
+
+html{
+    overflow: hidden;
+}
+
 html,
 body{
     width: 100%;
@@ -23,14 +28,6 @@ body {
     color: $baseColor;
     width:100%;
     background: $baseColor;
-}
-
-.logo {
-    display: inline-block;
-    width: 50px;
-    margin-top: 1.5em;
-    height: 54px;
-    background: url(../images/logo.png) 0 0 no-repeat;
 }
 
 #content {
@@ -94,30 +91,29 @@ body {
             right: 5px;
             left: auto;
         }
+
+        li{
+            text-transform: uppercase;
+            top:0;
+            width: 10em;
+            height:1.5em;
+            padding: .75em 0 .5em;
+            text-align: center;
+            font-weight: bold;
+            font-family: Arvo;
+            font-size:1em;
+            list-style: none;
+            position: absolute;
+            display: inline-block;
+            background:#f0f4f6;
+            color: $baseColor;
+            text-align:center;
+        }
     }
 
     h3{
         display: inline-block;
     }
 
-    li{
 
-
-        text-transform: uppercase;
-        top:0;
-        width: 10em;
-        height:1.5em;
-        padding: .75em 0 .5em;
-        text-align: center;
-        font-weight: bold;
-        font-family: Arvo;
-        list-style: none;
-        position: absolute;
-        display: inline-block;
-        background:#f0f4f6;
-        color: $baseColor;
-        text-align:center;
-
-
-    }
 }

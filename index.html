@@ -14,6 +14,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="components/google-code-prettify/prettify.css">
     <!-- endbuild -->
 </head>
 <body ng-app="homepageApp">
@@ -23,14 +24,19 @@
     experience this site.</p>
 <![endif]-->
 
-<div class="navbar">
+
+<div class="navbar" ng-controller="NavCtrl">
+    <a class="icon-bar toggle-nav" ng-click="toggleNav()"></a>
+
     <a class="logo" href="#/"></a>
     <nav>
         <ul>
             <li ng-class="navClass('home')"><a href="#/">home</a></li>
             <li ng-class="navClass('about')"><a href="#/about">about me</a></li>
             <li ng-class="navClass('work')"><a href="#/work">work</a></li>
-            <li ng-class="navClass('labs')"><a href="#/labs">labs</a></li>
+            <li ng-class="navClass('labs')">
+                <a href="#/labs">labs</a>
+            </li>
         </ul>
     </nav>
 </div>
@@ -47,14 +53,12 @@
 
 <!-- build:js scripts/scripts.js -->
 <script src="components/angular/angular.min.js"></script>
-<script src="components/Breezko/breezko.js"></script>
+<script src="components/Breezko/js/breezko.js"></script>
+<script src="components/google-code-prettify/prettify.js"></script>
 <script src="components/d3/d3.min.js"></script>
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/sunburst.js"></script>
-
 <!-- endbuild -->
-
-
 </body>
 </html>

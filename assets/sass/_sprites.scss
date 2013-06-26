@@ -2,6 +2,9 @@
 
 [class^="icon-"],
 [class*=" icon-"] {
+    width:auto;
+    line-height: inherit;
+    height:auto;
 
     &:before {
         content: '';
@@ -17,7 +20,7 @@
     }
 }
 
-@each $title in github, facebook, linkedin, spotify, twitter{
+@each $title in github, facebook, linkedin, spotify, twitter, bar{
     .icon-#{$title} {
         &:before {
             @include icons-sprite(icon-#{$title})

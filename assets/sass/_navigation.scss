@@ -6,10 +6,15 @@
     top: 0;
     bottom: 0;
     width: 144px;
-    z-index:10;
+    z-index: 10;
+    margin-bottom:0;
 
-    @include respond-to(hideNav){
-        left:-144px;
+    .logo {
+        display: inline-block;
+        width: 50px;
+        margin-top: 1.5em;
+        height: 54px;
+        background: url(../images/logo.png) 0 0 no-repeat;
     }
 
     nav {
@@ -58,5 +63,58 @@
                 }
             }
         }
+    }
+
+    @include respond-to(hideNav) {
+        left: -144px;
+
+        nav{
+            margin-top:0em;
+        }
+    }
+}
+
+.toggle-nav {
+    display: none;
+    cursor: pointer;
+
+    &:active{
+        margin-top: 1px;
+    }
+
+    @include respond-to(hideNav) {
+        display: block;
+        position: absolute;
+        right: -45px;
+        top: 20px;
+        z-index: 999;
+
+        .sidebar-opened &{
+            left:29px;
+            right:auto;
+        }
+    }
+}
+
+.sidebar-opened {
+
+    @include respond-to(hideNav) {
+        .navbar {
+            left: 0;
+            left: 0;
+            top:0;
+            width:100%;
+            bottom:auto;
+            height:auto;
+            right:0;
+        }
+    }
+}
+
+.tip {
+    position: absolute;
+
+    &.right-border{
+        right:0;
     }
 }

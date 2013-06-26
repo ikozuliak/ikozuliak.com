@@ -40,7 +40,7 @@ angular.module('homepageApp')
             .data(partition.nodes)
             .enter().append('svg:g');
 
-//path variable is required by magnify function
+        //path variable is required by magnify function
         var path = group.append("svg:path")
             .attr("d", arc)
             .attr("id", function (d) {
@@ -92,7 +92,7 @@ angular.module('homepageApp')
                 .attr("opacity", "0")
         }
 
-// Distort the specified node to 80% of its parent.
+        // Distort the specified node to 80% of its parent.
         function magnify(node) {
 
             if (parent = node.parent) {
@@ -122,7 +122,7 @@ angular.module('homepageApp')
                 .attrTween("d", arcTween);
         }
 
-// Recursively reposition the node at position x with scale k.
+        // Recursively reposition the node at position x with scale k.
         function reposition(node, x, k) {
             node.x = x;
             if (node.children && (n = node.children.length)) {
@@ -132,13 +132,13 @@ angular.module('homepageApp')
             return node.dx = node.value * k;
         }
 
-// Stash the old values for transition.
+        // Stash the old values for transition.
         function stash(d) {
             d.x0 = d.x;
             d.dx0 = d.dx;
         }
 
-// Interpolate the arcs in data space.
+        // Interpolate the arcs in data space.
         function arcTween(a) {
             var i = d3.interpolate({x:a.x0, dx:a.dx0}, a);
             return function (t) {
