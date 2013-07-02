@@ -1,5 +1,4 @@
 @import "compass";
-
 @import "mixins";
 
 // CSS Reset
@@ -8,39 +7,32 @@
 // Core variables and mixins
 @import "variables";
 
-
 // Grid system and page structure
 @import "grid";
 @import "layout";
 @import "pages";
 
-@import "sprites";
-
-// Base CSS
+// Twitter Bootstrap  components
 @import "code";
-//@import "forms";
-//@import "tables";
+@import "forms";
+@import "tables";
 @import "fonts";
 @import "typography";
+@import "buttons";
+@import "dropdowns";
 
 // Components: common
 @import "sprites";
 @import "lib-animations";
 @import "component-animations";
 
-// Components: Buttons
-@import "buttons";
-
 // Components: Nav
 @import "navigation";
-@import "pagination";
-@import "pager";
 
 // Components: Others
 @import "sunburst";
 @import "modals";
 @import "responsive";
 
-
 // Utility classes
-@import "utilities"; // Has to be last to override when necessary
+@import "utilities";

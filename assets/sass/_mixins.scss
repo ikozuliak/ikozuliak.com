@@ -196,7 +196,7 @@
 @mixin input-block-level {
     display: block;
     width: 100%;
-    min-height: 1px;
+    min-height: 32px;
     @include box-sizing(border-box); // Makes inputs behave like true block-level elements
 }
 

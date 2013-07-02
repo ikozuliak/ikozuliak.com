@@ -6,18 +6,18 @@
 <!--[if IE 8]>
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" ng-app="homepageApp"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title ng-bind="title + ' / Iurii Kozuliak / Front End Developer '">Iurii Kozuliak / Front End Developer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="components/google-code-prettify/prettify.css">
     <!-- endbuild -->
 </head>
-<body ng-app="homepageApp">
+<body >
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
     today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
@@ -33,10 +33,9 @@
         <ul>
             <li ng-class="navClass('home')"><a href="#/">home</a></li>
             <li ng-class="navClass('about')"><a href="#/about">about me</a></li>
-            <li ng-class="navClass('work')"><a href="#/work">work</a></li>
-            <li ng-class="navClass('labs')">
-                <a href="#/labs">labs</a>
-            </li>
+            <li ng-class="navClass('work')"><a href="#/work">blog</a></li>
+            <li ng-class="navClass('labs')"><a href="#/labs">labs</a></li>
+            <li ng-class="navClass('processing')"><a href="#/processing">processing</a></li>
         </ul>
     </nav>
 </div>
@@ -46,16 +45,22 @@
          ng-animate="{enter: 'page-toBottom', leave: 'page-toTop'}">
 </section>
 
-
 <!--[if lt IE 9]>
 <script src="components/es5-shim/es5-shim.js"></script>
 <![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="components/angular/angular.min.js"></script>
 
 <!-- build:js scripts/scripts.js -->
-<script src="components/angular/angular.min.js"></script>
+<script src="components/d3/d3.min.js"></script>
+<script src="components/Pickerko/js/moment.min.js"></script>
 <script src="components/Breezko/js/breezko.js"></script>
 <script src="components/google-code-prettify/prettify.js"></script>
-<script src="components/d3/d3.min.js"></script>
+<script src="components/Pickerko/js/moment.min.js"></script>
+<script src="components/Pickerko/js/pickerko.min.js"></script>
+<script src="components/sketchjs/js/sketch.min.js"></script>
+<script src="components/responsive-tables/js/bootstrap-dropdown.js"></script>
+<script src="components/responsive-tables/js/bootstrap-responsive-tables.js"></script>
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/sunburst.js"></script>

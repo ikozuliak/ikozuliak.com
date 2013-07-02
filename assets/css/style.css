@@ -686,6 +686,7 @@ textarea {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003661}}
 .row {
   width: 100%;
+  margin-left: 0;
   *zoom: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000348}}
@@ -698,11 +699,11 @@ textarea {
 .row:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003665}}
 .row [class*="span"] {
   display: block;
   width: 100%;
-  min-height: 1px;
+  min-height: 32px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -710,190 +711,190 @@ textarea {
   margin-left: 2.12766%;
   *margin-left: 2.07447%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003671}}
 .row [class*="span"]:first-child {
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003675}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003676}}
 .row .controls-row [class*="span"] + [class*="span"] {
   margin-left: 2.12766%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span12 {
   width: 100%;
   *width: 99.94681%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span11 {
   width: 91.48936%;
   *width: 91.43617%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span10 {
   width: 82.97872%;
   *width: 82.92553%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span9 {
   width: 74.46809%;
   *width: 74.41489%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span8 {
   width: 65.95745%;
   *width: 65.90426%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span7 {
   width: 57.44681%;
   *width: 57.39362%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span6 {
   width: 48.93617%;
   *width: 48.88298%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span5 {
   width: 40.42553%;
   *width: 40.37234%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span4 {
   width: 31.91489%;
   *width: 31.8617%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span3 {
   width: 23.40426%;
   *width: 23.35106%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span2 {
   width: 14.89362%;
   *width: 14.84043%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003688}}
 .row .span1 {
   width: 6.38298%;
   *width: 6.32979%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset12 {
   margin-left: 104.25532%;
   *margin-left: 104.14894%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset12:first-child {
   margin-left: 102.12766%;
   *margin-left: 102.02128%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset11 {
   margin-left: 95.74468%;
   *margin-left: 95.6383%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset11:first-child {
   margin-left: 93.61702%;
   *margin-left: 93.51064%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset10 {
   margin-left: 87.23404%;
   *margin-left: 87.12766%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset10:first-child {
   margin-left: 85.10638%;
   *margin-left: 85.0%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset9 {
   margin-left: 78.7234%;
   *margin-left: 78.61702%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset9:first-child {
   margin-left: 76.59574%;
   *margin-left: 76.48936%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset8 {
   margin-left: 70.21277%;
   *margin-left: 70.10638%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset8:first-child {
   margin-left: 68.08511%;
   *margin-left: 67.97872%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset7 {
   margin-left: 61.70213%;
   *margin-left: 61.59574%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset7:first-child {
   margin-left: 59.57447%;
   *margin-left: 59.46809%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset6 {
   margin-left: 53.19149%;
   *margin-left: 53.08511%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset6:first-child {
   margin-left: 51.06383%;
   *margin-left: 50.95745%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset5 {
   margin-left: 44.68085%;
   *margin-left: 44.57447%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset5:first-child {
   margin-left: 42.55319%;
   *margin-left: 42.44681%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset4 {
   margin-left: 36.17021%;
   *margin-left: 36.06383%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset4:first-child {
   margin-left: 34.04255%;
   *margin-left: 33.93617%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset3 {
   margin-left: 27.65957%;
   *margin-left: 27.55319%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset3:first-child {
   margin-left: 25.53191%;
   *margin-left: 25.42553%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset2 {
   margin-left: 19.14894%;
   *margin-left: 19.04255%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset2:first-child {
   margin-left: 17.02128%;
   *margin-left: 16.91489%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
 .row .offset1 {
   margin-left: 10.6383%;
   *margin-left: 10.53191%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003696}}
 .row .offset1:first-child {
   margin-left: 8.51064%;
   *margin-left: 8.40426%;
@@ -946,6 +947,11 @@ textarea {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000313}}
+html {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000318}}
 html,
 body {
   width: 100%;
@@ -953,7 +959,7 @@ body {
   min-height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000325}}
 body {
   font-size: 0.875em;
   font-family: 'PTSerif';
@@ -962,16 +968,7 @@ body {
   background: #1b2430;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000328}}
-.logo {
-  display: inline-block;
-  width: 50px;
-  margin-top: 1.5em;
-  height: 54px;
-  background: url(../images/logo.png) 0 0 no-repeat;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000333}}
 #content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -983,42 +980,41 @@ body {
   right: 0;
   overflow: hidden;
 }
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000333}}
+  #content {
+    left: 0;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000349}}
 .like {
-  margin: 2.5em 0 0;
-  font: 1.714em/1.5em Arvo;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000352}}
-.like ul {
-  display: inline-block;
+  margin: 2em 0 0;
   position: relative;
-  top: -2px;
-  margin-left: .5em;
+  font-size: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000354}}
 .like h3 {
-  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1em;
+  margin: -0.75em 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000363}}
-.like li {
-  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  font: bold 20px Arvo;
-  text-transform: uppercase;
-  color: #fe4400;
-  list-style: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000362}}
+.like ul {
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   position: relative;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 1em;
   display: inline-block;
+  margin-left: 5em;
   background: #fff;
-  text-align: center;
+  width: 10em;
+  height: 2.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000380}}
-.like li:before, .like li:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000373}}
+.like ul:before, .like ul:after {
   -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
@@ -1030,15 +1026,15 @@ body {
   z-index: -1;
   position: absolute;
   content: "";
-  bottom: 18px;
+  bottom: 10px;
   left: 5px;
   width: 47%;
   top: 10px;
   max-width: 300px;
   background: rgba(0, 0, 0, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000395}}
-.like li:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000388}}
+.like ul:after {
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
@@ -1046,6 +1042,28 @@ body {
   transform: rotate(3deg);
   right: 5px;
   left: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\0000395}}
+.like ul li {
+  text-transform: uppercase;
+  top: 0;
+  width: 10em;
+  height: 1.5em;
+  padding: 0.75em 0 0.5em;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arvo;
+  font-size: 1em;
+  list-style: none;
+  position: absolute;
+  display: inline-block;
+  background: #f0f4f6;
+  color: #1b2430;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_layout\.scss}line{font-family:\00003114}}
+.like h3 {
+  display: inline-block;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\000031}}
@@ -1058,42 +1076,44 @@ body {
   height: 100%;
   overflow: auto;
   width: 100%;
+  background: white;
   padding: 5em 5% 100px 8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000313}}
 .page > *:last-child {
   margin-bottom: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000317}}
 .page img.pull-left {
   margin: 0 20px 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000322}}
 .page-landing {
+  overflow: hidden;
   padding-top: 7.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000329}}
 .page-landing h1 {
   margin-bottom: .2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000332}}
 .page-landing h2 {
   font-size: 26px;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000337}}
 .page-landing .hello {
   font: 24px/1.5em Arvo;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000342}}
 .page-landing .overlay {
   display: inline-block;
   z-index: 1;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000347}}
 .page-landing .overlay:after {
   content: '';
   position: absolute;
@@ -1105,23 +1125,191 @@ body {
   z-index: -1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000361}}
 .page-about aside {
   float: left;
   margin: 0 20px 0 0;
+  max-width: 333px;
+  width: 30%;
+  min-width: 220px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000364}}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000361}}
+  .page-about aside {
+    min-width: 170px;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000361}}
+  .page-about aside {
+    max-width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000376}}
 .page-about aside img {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000380}}
 .page-about aside h5 {
   padding-bottom: .5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000384}}
+.page-about aside .socials {
+  margin-top: -3px;
+  padding-bottom: 1em;
+}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000384}}
+  .page-about aside .socials {
+    padding: 1.5em 0;
+    margin-top: .5em;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000384}}
+  .page-about aside .socials {
+    padding: 0 0 1em;
+    margin-top: -2px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\0000399}}
+.page-about aside .socials a {
+  margin-right: .5em;
+}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003104}}
+  .page-about aside p {
+    font-size: 13px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003112}}
 .page-about .page-content {
   overflow: hidden;
-  max-width: 560px;
+  max-width: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003118}}
+.page-item {
+  *zoom: 1;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000348}}
+.page-item:before, .page-item:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000355}}
+.page-item:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003124}}
+.page-item > img.pull-left {
+  max-width: 190px;
+}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003124}}
+  .page-item > img.pull-left {
+    max-width: 130px;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003124}}
+  .page-item > img.pull-left {
+    float: none;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003140}}
+.page-item p {
+  overflow: hidden;
+  padding: 2em 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003146}}
+.page-404 {
+  position: absolute;
+  width: 30em;
+  height: 20em;
+  left: 50%;
+  top: 50%;
+  margin-left: -18em;
+  margin-top: -15em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003155}}
+.page-404 .floating {
+  -webkit-box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+  background: #fff;
+  width: 30em;
+  height: 15em;
+  padding: 5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003167}}
+.breadcrumbs,
+.subheader,
+.page-item header {
+  margin-bottom: 0;
+  font: bold 2.286em Arvo;
+}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003167}}
+  .breadcrumbs,
+  .subheader,
+  .page-item header {
+    font-size: 26px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003175}}
+.breadcrumbs a, .breadcrumbs h3,
+.subheader a,
+.subheader h3,
+.page-item header a,
+.page-item header h3 {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003180}}
+.breadcrumbs > a, .breadcrumbs > span,
+.subheader > a,
+.subheader > span,
+.page-item header > a,
+.page-item header > span {
+  font: bold 0.65em Arvo;
+  text-transform: uppercase;
+  color: #1b2430;
+  margin-right: .75em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003188}}
+.breadcrumbs h3 a,
+.breadcrumbs h3,
+.subheader h3 a,
+.subheader h3,
+.page-item header h3 a,
+.page-item header h3 {
+  font: bold 1em Arvo;
+  text-transform: uppercase;
+  color: #1b2430;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003195}}
+.breadcrumbs h3 a:hover,
+.subheader h3 a:hover,
+.page-item header h3 a:hover {
+  text-decoration: underline !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pages\.scss}line{font-family:\00003199}}
+.breadcrumbs h3:before,
+.subheader h3:before,
+.page-item header h3:before {
+  content: '/ ';
+  margin-left: -.5em;
+  position: absolute;
+  color: #fe4400;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_code\.scss}line{font-family:\000038}}
@@ -1262,7 +1450,7 @@ input[type="color"],
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 20px;
-  color: #dee5e9;
+  color: #1b2430;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1536,96 +1724,96 @@ textarea[class*="span"],
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003721}}
 input,
 textarea,
 .uneditable-input {
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003726}}
 .controls-row [class*="span"] + [class*="span"] {
   margin-left: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span12,
 textarea.span12,
 .uneditable-input.span12 {
   width: 926px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span11,
 textarea.span11,
 .uneditable-input.span11 {
   width: 846px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span10,
 textarea.span10,
 .uneditable-input.span10 {
   width: 766px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span9,
 textarea.span9,
 .uneditable-input.span9 {
   width: 686px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span8,
 textarea.span8,
 .uneditable-input.span8 {
   width: 606px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span7,
 textarea.span7,
 .uneditable-input.span7 {
   width: 526px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span6,
 textarea.span6,
 .uneditable-input.span6 {
   width: 446px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span5,
 textarea.span5,
 .uneditable-input.span5 {
   width: 366px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span4,
 textarea.span4,
 .uneditable-input.span4 {
   width: 286px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span3,
 textarea.span3,
 .uneditable-input.span3 {
   width: 206px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span2,
 textarea.span2,
 .uneditable-input.span2 {
   width: 126px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003738}}
 input.span1,
 textarea.span1,
 .uneditable-input.span1 {
@@ -2239,6 +2427,16 @@ legend + .control-group {
   padding-left: 180px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_forms\.scss}line{font-family:\00003689}}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_tables\.scss}line{font-family:\000039}}
 table {
   max-width: 100%;
@@ -2547,804 +2745,771 @@ h1:before {
   color: #fe4400;
   left: -.6em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000324}}
+h1 small {
+  font-size: 24px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000329}}
 h2 {
   font: 2.286em Arvo;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000335}}
 h4 {
-  font: 1.286em/1.3em "PT Serif";
+  font: 16px/1.3em "PT Serif";
   margin: 1.5em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000340}}
 h5 {
   font: bold 15px PTSerif;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000343}}
-.breadcrumbs,
-.subheader {
-  margin-bottom: 1em;
-  font: bold 2.286em Arvo;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000347}}
-.breadcrumbs a, .breadcrumbs h3,
-.subheader a,
-.subheader h3 {
-  display: inline-block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000350}}
-.breadcrumbs a,
-.subheader a {
-  font: bold 0.75em Arvo;
-  text-transform: uppercase;
-  color: #1b2430;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000356}}
-.breadcrumbs h3,
-.subheader h3 {
-  font: bold 1em Arvo;
-  text-transform: uppercase;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000360}}
-.breadcrumbs h3:before,
-.subheader h3:before {
-  content: '/ ';
-  color: #fe4400;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000367}}
 p {
   font-size: 14px;
   line-height: 1.5em;
   padding: 0 0 1.3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000354}}
+ul li {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000359}}
 a {
   font-size: 14px;
   color: #fe4400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_typography\.scss}line{font-family:\0000366}}
+table td,
+table th {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000310}}
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #3e4c59;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: whitesmoke;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+  color: #3e4c59;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn:active, .btn.active {
+  background-color: #cccccc \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000394}}
+.btn:first-child {
+  *margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000329}}
+.btn:hover {
+  color: #3e4c59;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000340}}
+.btn:focus {
+  outline: thin dotted #333333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000346}}
+.btn.active, .btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000354}}
+.btn.disabled, .btn[disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000369}}
+.btn-large {
+  padding: 11px 19px;
+  font-size: 17.5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000375}}
+.btn-large [class^="icon-"],
+.btn-large [class*=" icon-"] {
+  margin-top: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000380}}
+.btn-small {
+  padding: 2px 10px;
+  font-size: 11.9px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000386}}
+.btn-small [class^="icon-"],
+.btn-small [class*=" icon-"] {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000390}}
+.btn-mini [class^="icon-"],
+.btn-mini [class*=" icon-"] {
+  margin-top: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000395}}
+.btn-mini {
+  padding: 0 6px;
+  font-size: 10.5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003105}}
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003114}}
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003122}}
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003138}}
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003144}}
+.btn {
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003149}}
+.btn-primary {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006ccc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0044CC', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0044cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  color: white;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn-primary:active, .btn-primary.active {
+  background-color: #003399 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003153}}
+.btn-warning {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fe652d;
+  background-image: -moz-linear-gradient(top, #ff7c4c, #fe4400);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff7c4c), to(#fe4400));
+  background-image: -webkit-linear-gradient(top, #ff7c4c, #fe4400);
+  background-image: -o-linear-gradient(top, #ff7c4c, #fe4400);
+  background-image: linear-gradient(to bottom, #ff7c4c, #fe4400);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF7C4C', endColorstr='#FFFE4400', GradientType=0);
+  border-color: #fe4400 #fe4400 #b23000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #fe4400;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+  color: white;
+  background-color: #fe4400;
+  *background-color: #e53d00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn-warning:active, .btn-warning.active {
+  background-color: #cb3600 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003157}}
+.btn-danger {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4e49;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFBD362F', GradientType=0);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #bd362f;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+  color: white;
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn-danger:active, .btn-danger.active {
+  background-color: #942a25 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003161}}
+.btn-success {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5bb65b;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF62C462', endColorstr='#FF51A351', GradientType=0);
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #51a351;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+  color: white;
+  background-color: #51a351;
+  *background-color: #499249;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn-success:active, .btn-success.active {
+  background-color: #408140 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003165}}
+.btn-info {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF5BC0DE', endColorstr='#FF2F96B4', GradientType=0);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f96b4;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
+  color: white;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn-info:active, .btn-info.active {
+  background-color: #24748c \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003169}}
+.btn-inverse {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #41474c;
+  background-image: -moz-linear-gradient(top, #444444, #3e4c59);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#3e4c59));
+  background-image: -webkit-linear-gradient(top, #444444, #3e4c59);
+  background-image: -o-linear-gradient(top, #444444, #3e4c59);
+  background-image: linear-gradient(to bottom, #444444, #3e4c59);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF444444', endColorstr='#FF3E4C59', GradientType=0);
+  border-color: #3e4c59 #3e4c59 #1f252c;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #3e4c59;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
+  color: white;
+  background-color: #3e4c59;
+  *background-color: #343f4a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
+.btn-inverse:active, .btn-inverse.active {
+  background-color: #29323b \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003178}}
+button.btn,
+input[type="submit"].btn {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003181}}
+button.btn::-moz-focus-inner,
+input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003190}}
+button.btn.btn-large,
+input[type="submit"].btn.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003194}}
+button.btn.btn-small,
+input[type="submit"].btn.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003198}}
+button.btn.btn-mini,
+input[type="submit"].btn.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003211}}
+.btn-link,
+.btn-link:active,
+.btn-link[disabled] {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003216}}
+.btn-link {
+  border-color: transparent;
+  cursor: pointer;
+  color: #0088cc;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003222}}
+.btn-link:hover {
+  color: #005580;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003227}}
+.btn-link[disabled]:hover {
+  color: #3e4c59;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\000038}}
+.dropup,
+.dropdown {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000311}}
+.dropdown-toggle {
+  *margin-bottom: -3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000316}}
+.dropdown-toggle:active,
+.open .dropdown-toggle {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000322}}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid black;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000334}}
+.dropdown .caret {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000341}}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000364}}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000370}}
+.dropdown-menu .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 9px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000375}}
+.dropdown-menu a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #3e4c59;
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\0000390}}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  text-decoration: none;
+  color: white;
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003100}}
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: white;
+  text-decoration: none;
+  outline: 0;
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003112}}
+.dropdown-menu .disabled > a,
+.dropdown-menu .disabled > a:hover {
+  color: #ecf1f4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003116}}
+.dropdown-menu .disabled > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003124}}
+.open {
+  *z-index: 1000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003129}}
+.open > .dropdown-menu {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003136}}
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003148}}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid black;
+  content: "\2191";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003154}}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003163}}
+.dropdown-submenu {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003166}}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003175}}
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003179}}
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003192}}
+.dropdown-submenu:hover > a:after {
+  border-left-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003200}}
+.dropdown .dropdown-menu .nav-header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_dropdowns\.scss}line{font-family:\00003207}}
+.typeahead {
+  margin-top: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/icons\/\*\.png}line{font-family:\0000390}}
+.icons-sprite, .icon-github:before, .icon-facebook:before, .icon-linkedin:before, .icon-spotify:before, .icon-twitter:before, .icon-bar:before {
+  background: url('../images/icons-s99b0cf8378.png') no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\000034}}
 [class^="icon-"],
 [class*=" icon-"] {
+  width: auto;
+  line-height: inherit;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\000039}}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
   display: inline-block;
-  width: 14px;
-  height: 14px;
-  *margin-right: .3em;
-  line-height: 14px;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000318}}
+[class^="icon-"].icon-text-top:before,
+[class*=" icon-"].icon-text-top:before {
   vertical-align: text-top;
-  background-image: url('../../../app/assets/images/glyphicons-halflings.png');
-  background-position: 14px 14px;
-  background-repeat: no-repeat;
-  margin-top: 1px;
 }
 
-/* White icons with optional class, or on hover/active states of certain elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000344}}
-.icon-white,
-.nav-pills > .active > a > [class^="icon-"],
-.nav-pills > .active > a > [class*=" icon-"],
-.nav-list > .active > a > [class^="icon-"],
-.nav-list > .active > a > [class*=" icon-"],
-.navbar-inverse .nav > .active > a > [class^="icon-"],
-.navbar-inverse .nav > .active > a > [class*=" icon-"],
-.dropdown-menu > li > a:hover > [class^="icon-"],
-.dropdown-menu > li > a:hover > [class*=" icon-"],
-.dropdown-menu > .active > a > [class^="icon-"],
-.dropdown-menu > .active > a > [class*=" icon-"],
-.dropdown-submenu:hover > a > [class^="icon-"],
-.dropdown-submenu:hover > a > [class*=" icon-"] {
-  background-image: url('../../../app/assets/images/glyphicons-halflings-white.png');
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000325}}
+.icon-github:before {
+  background-position: 0 -31px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000348}}
-.icon-glass {
-  background-position: 0 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000349}}
-.icon-music {
-  background-position: -24px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000350}}
-.icon-search {
-  background-position: -48px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000351}}
-.icon-envelope {
-  background-position: -72px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000352}}
-.icon-heart {
-  background-position: -96px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000353}}
-.icon-star {
-  background-position: -120px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000354}}
-.icon-star-empty {
-  background-position: -144px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000355}}
-.icon-user {
-  background-position: -168px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000356}}
-.icon-film {
-  background-position: -192px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000357}}
-.icon-th-large {
-  background-position: -216px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000358}}
-.icon-th {
-  background-position: -240px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000359}}
-.icon-th-list {
-  background-position: -264px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000360}}
-.icon-ok {
-  background-position: -288px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000361}}
-.icon-remove {
-  background-position: -312px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000362}}
-.icon-zoom-in {
-  background-position: -336px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000363}}
-.icon-zoom-out {
-  background-position: -360px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000364}}
-.icon-off {
-  background-position: -384px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000365}}
-.icon-signal {
-  background-position: -408px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000366}}
-.icon-cog {
-  background-position: -432px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000367}}
-.icon-trash {
-  background-position: -456px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000369}}
-.icon-home {
-  background-position: 0 -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000370}}
-.icon-file {
-  background-position: -24px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000371}}
-.icon-time {
-  background-position: -48px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000372}}
-.icon-road {
-  background-position: -72px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000373}}
-.icon-download-alt {
-  background-position: -96px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000374}}
-.icon-download {
-  background-position: -120px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000375}}
-.icon-upload {
-  background-position: -144px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000376}}
-.icon-inbox {
-  background-position: -168px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000377}}
-.icon-play-circle {
-  background-position: -192px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000378}}
-.icon-repeat {
-  background-position: -216px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000379}}
-.icon-refresh {
-  background-position: -240px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000380}}
-.icon-list-alt {
-  background-position: -264px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000381}}
-.icon-lock {
-  background-position: -287px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000382}}
-.icon-flag {
-  background-position: -312px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000383}}
-.icon-headphones {
-  background-position: -336px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000384}}
-.icon-volume-off {
-  background-position: -360px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000385}}
-.icon-volume-down {
-  background-position: -384px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000386}}
-.icon-volume-up {
-  background-position: -408px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000387}}
-.icon-qrcode {
-  background-position: -432px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000388}}
-.icon-barcode {
-  background-position: -456px -24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000390}}
-.icon-tag {
-  background-position: 0 -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000391}}
-.icon-tags {
-  background-position: -25px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000392}}
-.icon-book {
-  background-position: -48px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000393}}
-.icon-bookmark {
-  background-position: -72px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000394}}
-.icon-print {
-  background-position: -96px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000395}}
-.icon-camera {
-  background-position: -120px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000396}}
-.icon-font {
-  background-position: -144px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000397}}
-.icon-bold {
-  background-position: -167px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000398}}
-.icon-italic {
-  background-position: -192px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000399}}
-.icon-text-height {
-  background-position: -216px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003100}}
-.icon-text-width {
-  background-position: -240px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003101}}
-.icon-align-left {
-  background-position: -264px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003102}}
-.icon-align-center {
-  background-position: -288px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003103}}
-.icon-align-right {
-  background-position: -312px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003104}}
-.icon-align-justify {
-  background-position: -336px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003105}}
-.icon-list {
-  background-position: -360px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003106}}
-.icon-indent-left {
-  background-position: -384px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003107}}
-.icon-indent-right {
-  background-position: -408px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003108}}
-.icon-facetime-video {
-  background-position: -432px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003109}}
-.icon-picture {
-  background-position: -456px -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003111}}
-.icon-pencil {
-  background-position: 0 -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003112}}
-.icon-map-marker {
-  background-position: -24px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003113}}
-.icon-adjust {
-  background-position: -48px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003114}}
-.icon-tint {
-  background-position: -72px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003115}}
-.icon-edit {
-  background-position: -96px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003116}}
-.icon-share {
-  background-position: -120px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003117}}
-.icon-check {
-  background-position: -144px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003118}}
-.icon-move {
-  background-position: -168px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003119}}
-.icon-step-backward {
-  background-position: -192px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003120}}
-.icon-fast-backward {
-  background-position: -216px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003121}}
-.icon-backward {
-  background-position: -240px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003122}}
-.icon-play {
-  background-position: -264px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003123}}
-.icon-pause {
-  background-position: -288px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003124}}
-.icon-stop {
-  background-position: -312px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003125}}
-.icon-forward {
-  background-position: -336px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003126}}
-.icon-fast-forward {
-  background-position: -360px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003127}}
-.icon-step-forward {
-  background-position: -384px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003128}}
-.icon-eject {
-  background-position: -408px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003129}}
-.icon-chevron-left {
-  background-position: -432px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003130}}
-.icon-chevron-right {
-  background-position: -456px -72px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003132}}
-.icon-plus-sign {
-  background-position: 0 -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003133}}
-.icon-minus-sign {
-  background-position: -24px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003134}}
-.icon-remove-sign {
-  background-position: -48px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003135}}
-.icon-ok-sign {
-  background-position: -72px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003136}}
-.icon-question-sign {
-  background-position: -96px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003137}}
-.icon-info-sign {
-  background-position: -120px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003138}}
-.icon-screenshot {
-  background-position: -144px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003139}}
-.icon-remove-circle {
-  background-position: -168px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003140}}
-.icon-ok-circle {
-  background-position: -192px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003141}}
-.icon-ban-circle {
-  background-position: -216px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003142}}
-.icon-arrow-left {
-  background-position: -240px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003143}}
-.icon-arrow-right {
-  background-position: -264px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003144}}
-.icon-arrow-up {
-  background-position: -289px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003145}}
-.icon-arrow-down {
-  background-position: -312px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003146}}
-.icon-share-alt {
-  background-position: -336px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003147}}
-.icon-resize-full {
-  background-position: -360px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003148}}
-.icon-resize-small {
-  background-position: -384px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003149}}
-.icon-plus {
-  background-position: -408px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003150}}
-.icon-minus {
-  background-position: -433px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003151}}
-.icon-asterisk {
-  background-position: -456px -96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003153}}
-.icon-exclamation-sign {
-  background-position: 0 -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003154}}
-.icon-gift {
-  background-position: -24px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003155}}
-.icon-leaf {
-  background-position: -48px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003156}}
-.icon-fire {
-  background-position: -72px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003157}}
-.icon-eye-open {
-  background-position: -96px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003158}}
-.icon-eye-close {
-  background-position: -120px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003159}}
-.icon-warning-sign {
-  background-position: -144px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003160}}
-.icon-plane {
-  background-position: -168px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003161}}
-.icon-calendar {
-  background-position: -192px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003162}}
-.icon-random {
-  background-position: -216px -120px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000328}}
+.icon-github:before {
+  height: 13px;
   width: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003163}}
-.icon-comment {
-  background-position: -240px -120px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000325}}
+.icon-facebook:before {
+  background-position: 0 -71px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000328}}
+.icon-facebook:before {
+  height: 15px;
+  width: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003164}}
-.icon-magnet {
-  background-position: -264px -120px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000325}}
+.icon-linkedin:before {
+  background-position: 0 -56px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000328}}
+.icon-linkedin:before {
+  height: 15px;
+  width: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003165}}
-.icon-chevron-up {
-  background-position: -288px -120px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000325}}
+.icon-spotify:before {
+  background-position: 0 -16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000328}}
+.icon-spotify:before {
+  height: 15px;
+  width: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003166}}
-.icon-chevron-down {
-  background-position: -313px -119px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000325}}
+.icon-twitter:before {
+  background-position: 0 -44px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003167}}
-.icon-retweet {
-  background-position: -336px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003168}}
-.icon-shopping-cart {
-  background-position: -360px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003169}}
-.icon-folder-close {
-  background-position: -384px -120px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003170}}
-.icon-folder-open {
-  background-position: -408px -120px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000328}}
+.icon-twitter:before {
+  height: 12px;
   width: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003171}}
-.icon-resize-vertical {
-  background-position: -432px -119px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000325}}
+.icon-bar:before {
+  background-position: 0 -86px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003172}}
-.icon-resize-horizontal {
-  background-position: -456px -118px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003174}}
-.icon-hdd {
-  background-position: 0 -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003175}}
-.icon-bullhorn {
-  background-position: -24px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003176}}
-.icon-bell {
-  background-position: -48px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003177}}
-.icon-certificate {
-  background-position: -72px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003178}}
-.icon-thumbs-up {
-  background-position: -96px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003179}}
-.icon-thumbs-down {
-  background-position: -120px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003180}}
-.icon-hand-right {
-  background-position: -144px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003181}}
-.icon-hand-left {
-  background-position: -168px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003182}}
-.icon-hand-up {
-  background-position: -192px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003183}}
-.icon-hand-down {
-  background-position: -216px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003184}}
-.icon-circle-arrow-right {
-  background-position: -240px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003185}}
-.icon-circle-arrow-left {
-  background-position: -264px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003186}}
-.icon-circle-arrow-up {
-  background-position: -288px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003187}}
-.icon-circle-arrow-down {
-  background-position: -312px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003188}}
-.icon-globe {
-  background-position: -336px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003189}}
-.icon-wrench {
-  background-position: -360px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003190}}
-.icon-tasks {
-  background-position: -384px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003191}}
-.icon-filter {
-  background-position: -408px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003192}}
-.icon-briefcase {
-  background-position: -432px -144px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\00003193}}
-.icon-fullscreen {
-  background-position: -456px -144px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sprites\.scss}line{font-family:\0000328}}
+.icon-bar:before {
+  height: 16px;
+  width: 16px;
 }
 
 /* animation sets */
@@ -6518,6 +6683,22 @@ a {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\000035}}
+.vyshyvanka {
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  position: fixed;
+  z-index: 9999;
+  height: 100%;
+  width: 26px;
+  right: 0;
+  top: 0;
+  background: url(../images/vyshyvanka-pattern.png) 100% 100% repeat-y;
+  background-color: #9f2729;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000322}}
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
@@ -6525,12 +6706,12 @@ a {
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000325}}
 .fade.in {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000330}}
 .collapse {
   position: relative;
   height: 0;
@@ -6540,12 +6721,12 @@ a {
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000335}}
 .collapse.in {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000340}}
 .page-leave, .page-enter {
   -webkit-transition: all 0.8s linear;
   -moz-transition: all 0.8s linear;
@@ -6553,7 +6734,7 @@ a {
   transition: all 0.8s linear;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000344}}
 .transition-container {
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
@@ -6561,7 +6742,7 @@ a {
   transform-style: preserve-3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000351}}
 .page {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -6572,434 +6753,166 @@ a {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  background: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000350}}
-.page-enter {
-  -webkit-animation: rotatePullBottom 0.7s ease;
-  -moz-animation: rotatePullBottom 0.7s ease;
-  -o-animation: rotatePullBottom 0.7s ease;
-  animation: rotatePullBottom 0.7s ease;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000363}}
+.page-toBottom {
+  -webkit-transform-origin: 50% 100%;
+  -webkit-animation: rotatePullBottom 0.5s both ease;
+  -moz-transform-origin: 50% 100%;
+  -moz-animation: rotatePullBottom 0.5s both ease;
+  transform-origin: 50% 100%;
+  animation: rotatePullBottom 0.5s both ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000360}}
-.page-leave {
-  -webkit-animation: rotatePushTop 0.7s ease;
-  -moz-animation: rotatePushTop 0.7s ease;
-  -o-animation: rotatePushTop 0.7s ease;
-  animation: rotatePushTop 0.7s ease;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\0000372}}
+.page-toTop {
+  -webkit-transform-origin: 50% 0%;
+  -webkit-animation: rotatePushTop 0.8s both ease;
+  -moz-transform-origin: 50% 0%;
+  -moz-animation: rotatePushTop 0.8s both ease;
+  transform-origin: 50% 0%;
+  animation: rotatePushTop 0.8s both ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000310}}
-.btn {
-  display: inline-block;
-  *display: inline;
-  /* IE7 inline-block hack */
-  *zoom: 1;
-  padding: 4px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  color: #3e4c59;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: whitesmoke;
-  background-image: -moz-linear-gradient(top, white, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
-  background-image: -o-linear-gradient(top, white, #e6e6e6);
-  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);
-  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #e6e6e6;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  border: 1px solid #bbbbbb;
-  *border: 0;
-  border-bottom-color: #a2a2a2;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  *margin-left: .3em;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
-  color: #3e4c59;
-  background-color: #e6e6e6;
-  *background-color: #d9d9d9;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn:active, .btn.active {
-  background-color: #cccccc \9;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000394}}
-.btn:first-child {
-  *margin-left: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000329}}
-.btn:hover {
-  color: #3e4c59;
-  text-decoration: none;
-  background-position: 0 -15px;
-  -webkit-transition: background-position 0.1s linear;
-  -moz-transition: background-position 0.1s linear;
-  -o-transition: background-position 0.1s linear;
-  transition: background-position 0.1s linear;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000340}}
-.btn:focus {
-  outline: thin dotted #333333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000346}}
-.btn.active, .btn:active {
-  background-image: none;
-  outline: 0;
-  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000354}}
-.btn.disabled, .btn[disabled] {
-  cursor: default;
-  background-image: none;
-  opacity: 0.65;
-  filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+@-webkit-keyframes rotatePullTop {
+  /* line 85, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000369}}
-.btn-large {
-  padding: 11px 19px;
-  font-size: 17.5px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+@-moz-keyframes rotatePullTop {
+  /* line 88, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    opacity: 0;
+    -moz-transform: rotateX(-90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000375}}
-.btn-large [class^="icon-"],
-.btn-large [class*=" icon-"] {
-  margin-top: 4px;
+@keyframes rotatePullTop {
+  /* line 91, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000380}}
-.btn-small {
-  padding: 2px 10px;
-  font-size: 11.9px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+@-webkit-keyframes rotatePullBottom {
+  /* line 95, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000386}}
-.btn-small [class^="icon-"],
-.btn-small [class*=" icon-"] {
-  margin-top: 0;
+@-moz-keyframes rotatePullBottom {
+  /* line 98, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    opacity: 0;
+    -moz-transform: rotateX(90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000390}}
-.btn-mini [class^="icon-"],
-.btn-mini [class*=" icon-"] {
-  margin-top: -1px;
+@keyframes rotatePullBottom {
+  /* line 101, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\0000395}}
-.btn-mini {
-  padding: 0 6px;
-  font-size: 10.5px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+@-webkit-keyframes rotatePushTop {
+  /* line 105, ../../../app/assets/sass/_component-animations.scss */
+  to {
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003105}}
-.btn-block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+@-moz-keyframes rotatePushTop {
+  /* line 108, ../../../app/assets/sass/_component-animations.scss */
+  to {
+    opacity: 0;
+    -moz-transform: rotateX(-90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003114}}
-.btn-block + .btn-block {
-  margin-top: 5px;
+@keyframes rotatePushTop {
+  /* line 111, ../../../app/assets/sass/_component-animations.scss */
+  to {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003122}}
-input[type="submit"].btn-block,
-input[type="reset"].btn-block,
-input[type="button"].btn-block {
-  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_component-animations\.scss}line{font-family:\00003121}}
+.floating {
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 6s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -moz-transform-: rotateZ(-1deg);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003138}}
-.btn-primary.active,
-.btn-warning.active,
-.btn-danger.active,
-.btn-success.active,
-.btn-info.active,
-.btn-inverse.active {
-  color: rgba(255, 255, 255, 0.75);
+@-webkit-keyframes Floatingx {
+  /* line 142, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+
+  /* line 143, ../../../app/assets/sass/_component-animations.scss */
+  65% {
+    -webkit-transform: translate(0, 15px);
+  }
+
+  /* line 144, ../../../app/assets/sass/_component-animations.scss */
+  to {
+    -webkit-transform: translate(0, 0px);
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003144}}
-.btn {
-  border-color: #c5c5c5;
-  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
-}
+@-moz-keyframes Floating {
+  /* line 148, ../../../app/assets/sass/_component-animations.scss */
+  from {
+    -moz-transform: translate(0, 0px) rotateZ(-1deg);
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003149}}
-.btn-primary {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #006ccc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0044CC', GradientType=0);
-  border-color: #0044cc #0044cc #002a80;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #0044cc;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-  color: white;
-  background-color: #0044cc;
-  *background-color: #003bb3;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn-primary:active, .btn-primary.active {
-  background-color: #003399 \9;
-}
+  /* line 149, ../../../app/assets/sass/_component-animations.scss */
+  25% {
+    -moz-transform: translate(0, 20px) rotateZ(4deg);
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003153}}
-.btn-warning {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #fe652d;
-  background-image: -moz-linear-gradient(top, #ff7c4c, #fe4400);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff7c4c), to(#fe4400));
-  background-image: -webkit-linear-gradient(top, #ff7c4c, #fe4400);
-  background-image: -o-linear-gradient(top, #ff7c4c, #fe4400);
-  background-image: linear-gradient(to bottom, #ff7c4c, #fe4400);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF7C4C', endColorstr='#FFFE4400', GradientType=0);
-  border-color: #fe4400 #fe4400 #b23000;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #fe4400;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
-  color: white;
-  background-color: #fe4400;
-  *background-color: #e53d00;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn-warning:active, .btn-warning.active {
-  background-color: #cb3600 \9;
-}
+  /* line 150, ../../../app/assets/sass/_component-animations.scss */
+  35% {
+    -moz-transform: translate(0, 17px) rotateZ(4deg);
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003157}}
-.btn-danger {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #da4e49;
-  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFBD362F', GradientType=0);
-  border-color: #bd362f #bd362f #802420;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #bd362f;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
-  color: white;
-  background-color: #bd362f;
-  *background-color: #a9302a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn-danger:active, .btn-danger.active {
-  background-color: #942a25 \9;
-}
+  /* line 151, ../../../app/assets/sass/_component-animations.scss */
+  50% {
+    -moz-transform: translate(0, 27px) rotateZ(2deg);
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003161}}
-.btn-success {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb65b;
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF62C462', endColorstr='#FF51A351', GradientType=0);
-  border-color: #51a351 #51a351 #387038;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #51a351;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
-  color: white;
-  background-color: #51a351;
-  *background-color: #499249;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn-success:active, .btn-success.active {
-  background-color: #408140 \9;
-}
+  /* line 152, ../../../app/assets/sass/_component-animations.scss */
+  75% {
+    -moz-transform: translate(0, -10px) rotateZ(-2deg);
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003165}}
-.btn-info {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #49afcd;
-  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
-  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF5BC0DE', endColorstr='#FF2F96B4', GradientType=0);
-  border-color: #2f96b4 #2f96b4 #1f6377;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #2f96b4;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
-  color: white;
-  background-color: #2f96b4;
-  *background-color: #2a85a0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn-info:active, .btn-info.active {
-  background-color: #24748c \9;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003169}}
-.btn-inverse {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #41474c;
-  background-image: -moz-linear-gradient(top, #444444, #3e4c59);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#3e4c59));
-  background-image: -webkit-linear-gradient(top, #444444, #3e4c59);
-  background-image: -o-linear-gradient(top, #444444, #3e4c59);
-  background-image: linear-gradient(to bottom, #444444, #3e4c59);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF444444', endColorstr='#FF3E4C59', GradientType=0);
-  border-color: #3e4c59 #3e4c59 #1f252c;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #3e4c59;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003559}}
-.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
-  color: white;
-  background-color: #3e4c59;
-  *background-color: #343f4a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\00003567}}
-.btn-inverse:active, .btn-inverse.active {
-  background-color: #29323b \9;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003178}}
-button.btn,
-input[type="submit"].btn {
-  *padding-top: 3px;
-  *padding-bottom: 3px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003181}}
-button.btn::-moz-focus-inner,
-input[type="submit"].btn::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003190}}
-button.btn.btn-large,
-input[type="submit"].btn.btn-large {
-  *padding-top: 7px;
-  *padding-bottom: 7px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003194}}
-button.btn.btn-small,
-input[type="submit"].btn.btn-small {
-  *padding-top: 3px;
-  *padding-bottom: 3px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003198}}
-button.btn.btn-mini,
-input[type="submit"].btn.btn-mini {
-  *padding-top: 1px;
-  *padding-bottom: 1px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003211}}
-.btn-link,
-.btn-link:active,
-.btn-link[disabled] {
-  background-color: transparent;
-  background-image: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003216}}
-.btn-link {
-  border-color: transparent;
-  cursor: pointer;
-  color: #0088cc;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003222}}
-.btn-link:hover {
-  color: #005580;
-  text-decoration: underline;
-  background-color: transparent;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_buttons\.scss}line{font-family:\00003227}}
-.btn-link[disabled]:hover {
-  color: #3e4c59;
-  text-decoration: none;
+  /* line 153, ../../../app/assets/sass/_component-animations.scss */
+  to {
+    -moz-transform: translate(0, 0px) rotateZ(-1deg);
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\000031}}
@@ -7012,26 +6925,35 @@ input[type="submit"].btn.btn-mini {
   bottom: 0;
   width: 144px;
   z-index: 10;
+  margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000312}}
+.navbar .logo {
+  display: inline-block;
+  width: 50px;
+  margin-top: 1.5em;
+  height: 54px;
+  background: url(../images/logo.png) 0 0 no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000320}}
 .navbar nav {
   margin-top: 12em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000323}}
 .navbar nav li {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000328}}
 .navbar nav li.current a, .navbar nav li:hover a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000331}}
 .navbar nav li.current a:after, .navbar nav li:hover a:after {
   width: 100%;
   opacity: 1;
   filter: alpha(opacity=100);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000338}}
 .navbar nav li a {
   -webkit-transition: color 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);
   -moz-transition: color 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);
@@ -7046,7 +6968,7 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000350}}
 .navbar nav li a:after {
   -webkit-transition: width 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22), opacity 0.4s linear;
   -moz-transition: width 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22), opacity 0.4s linear;
@@ -7064,227 +6986,62 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   z-index: -1;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\000036}}
-.pagination {
-  margin: 20px 0;
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\000031}}
+  .navbar {
+    left: -144px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000371}}
+  .navbar nav {
+    margin-top: 0em;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000310}}
-.pagination ul {
-  display: inline-block;
-  *display: inline;
-  /* IE7 inline-block hack */
-  *zoom: 1;
-  margin-left: 0;
-  margin-bottom: 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000377}}
+.toggle-nav {
+  display: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000381}}
+.toggle-nav:active {
+  margin-top: 1px;
+}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000377}}
+  .toggle-nav {
+    display: block;
+    position: absolute;
+    right: -45px;
+    top: 20px;
+    z-index: 999;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\0000392}}
+  .sidebar-opened .toggle-nav {
+    left: 29px;
+    right: auto;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000321}}
-.pagination ul > li {
-  display: inline;
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\00003102}}
+  .sidebar-opened .navbar {
+    left: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    bottom: auto;
+    height: auto;
+    right: 0;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000325}}
-.pagination ul > li > a,
-.pagination ul > li > span {
-  float: left;
-  padding: 4px 12px;
-  line-height: 20px;
-  text-decoration: none;
-  background-color: white;
-  border: 1px solid #dddddd;
-  border-left-width: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\00003114}}
+.tip {
+  position: absolute;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000336}}
-.pagination ul > li > a:hover,
-.pagination ul > .active > a,
-.pagination ul > .active > span {
-  background-color: whitesmoke;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000340}}
-.pagination ul > .active > a,
-.pagination ul > .active > span {
-  color: #ecf1f4;
-  cursor: default;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000346}}
-.pagination ul > .disabled > span,
-.pagination ul > .disabled > a,
-.pagination ul > .disabled > a:hover {
-  color: #ecf1f4;
-  background-color: transparent;
-  cursor: default;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000352}}
-.pagination ul > li:first-child > a,
-.pagination ul > li:first-child > span {
-  border-left-width: 1px;
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-left-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  border-bottom-left-radius: 4px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000357}}
-.pagination ul > li:last-child > a,
-.pagination ul > li:last-child > span {
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-right-radius: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-right-radius: 4px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000365}}
-.pagination-centered {
-  text-align: center;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000368}}
-.pagination-right {
-  text-align: right;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000379}}
-.pagination-large ul > li > a,
-.pagination-large ul > li > span {
-  padding: 11px 19px;
-  font-size: 17.5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000384}}
-.pagination-large ul > li:first-child > a,
-.pagination-large ul > li:first-child > span {
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  border-bottom-left-radius: 6px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000388}}
-.pagination-large ul > li:last-child > a,
-.pagination-large ul > li:last-child > span {
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-right-radius: 6px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\0000397}}
-.pagination-mini ul > li:first-child > a,
-.pagination-mini ul > li:first-child > span,
-.pagination-small ul > li:first-child > a,
-.pagination-small ul > li:first-child > span {
-  -webkit-border-top-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-left-radius: 3px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\00003101}}
-.pagination-mini ul > li:last-child > a,
-.pagination-mini ul > li:last-child > span,
-.pagination-small ul > li:last-child > a,
-.pagination-small ul > li:last-child > span {
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-  border-bottom-right-radius: 3px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\00003109}}
-.pagination-small ul > li > a,
-.pagination-small ul > li > span {
-  padding: 2px 10px;
-  font-size: 11.9px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pagination\.scss}line{font-family:\00003117}}
-.pagination-mini ul > li > a,
-.pagination-mini ul > li > span {
-  padding: 0 6px;
-  font-size: 10.5px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\000036}}
-.pager {
-  margin: 20px 0;
-  list-style: none;
-  text-align: center;
-  *zoom: 1;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000348}}
-.pager:before, .pager:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_mixins\.scss}line{font-family:\0000355}}
-.pager:after {
-  clear: both;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\0000312}}
-.pager li {
-  display: inline;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\0000316}}
-.pager li > a,
-.pager li > span {
-  display: inline-block;
-  padding: 5px 14px;
-  background-color: #fff;
-  border: 1px solid #dddddd;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\0000323}}
-.pager li > a:hover {
-  text-decoration: none;
-  background-color: #f5f5f5;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\0000328}}
-.pager .next > a,
-.pager .next > span {
-  float: right;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\0000332}}
-.pager .previous > a,
-.pager .previous > span {
-  float: left;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_pager\.scss}line{font-family:\0000337}}
-.pager .disabled > a,
-.pager .disabled > a:hover,
-.pager .disabled > span {
-  color: #ecf1f4;
-  background-color: #fff;
-  cursor: default;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_navigation\.scss}line{font-family:\00003117}}
+.tip.right-border {
+  right: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_sunburst\.scss}line{font-family:\000031}}
@@ -7590,6 +7347,98 @@ input[type="submit"].btn.btn-mini {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\000033}}
   body {
     font-size: 9px;
+  }
+}
+@media (max-width: 470px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 8.75px;
+  }
+}
+@media (max-width: 460px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 8.5px;
+  }
+}
+@media (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 8.25px;
+  }
+}
+@media (max-width: 440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 8px;
+  }
+}
+@media (max-width: 430px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 7.75px;
+  }
+}
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 7.5px;
+  }
+}
+@media (max-width: 410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 7.25px;
+  }
+}
+@media (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 7px;
+  }
+}
+@media (max-width: 390px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 6.75px;
+  }
+}
+@media (max-width: 380px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000311}}
+  body {
+    font-size: 6.5px;
+  }
+}
+@media (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000319}}
+  .hidenav-block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000328}}
+  .handheld-block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    text-align: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_responsive\.scss}line{font-family:\0000334}}
+  .pull-right-handheld {
+    float: right !important;
+    width: auto !important;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iurii\/Projects\/my\/homepage\/app\/assets\/sass\/_utilities\.scss}line{font-family:\000036}}

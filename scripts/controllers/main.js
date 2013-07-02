@@ -10,9 +10,7 @@ angular.module('homepageApp')
             return page === currentRoute ? 'current' : '';
         };
 
-        $scope.toggleNav = function(){
-
-            console.log('test');
+        $scope.toggleNav = function () {
 
             var body = document.body;
 
@@ -69,8 +67,6 @@ angular.module('homepageApp')
 
     }).controller('BreezkoCtrl',function ($scope) {
 
-        window.prettyPrint && prettyPrint()
-
         var breezko = new window.Breezko(document.getElementById('breeze'), {
             speed:1000
         });
@@ -90,7 +86,64 @@ angular.module('homepageApp')
         $scope.breezkoStop = function () {
             breezko.stop();
         }
+
+    }).controller('LabsCtrl',function ($scope) {
+
+        window.prettyPrint && prettyPrint()
+
+    }).controller('TablesCtrl',function ($scope) {
+
+        $('[data-tables="responsive-table"]').each(function () {
+            $(this).responsivetable();
+        })
+
+    }).controller('PickerkoCtrl',function ($scope) {
+
+        new Pickerko(document.getElementById('pickerko1'));
+
+        new Pickerko(document.getElementById('pickerko2'), {
+            targetInput:'targetInput'
+        });
+
+        new Pickerko(document.getElementById('pickerko3'), {
+            startDate:'17/06/2013',
+            endDate:'26/06/2013',
+            targetInput:'targetInput3',
+            rangePicker:true
+        });
+
+        new Pickerko(document.getElementById('pickerko4'), {
+            startDate:'17/06/2013',
+            endDate:'26/06/2013',
+            targetInput:'targetInput4',
+            rangePicker:true,
+            rangeClickMode:'left-left'
+        });
+
+        var pickerko5 = new Pickerko(document.getElementById('pickerko5'), {
+            startDate:'23/06/2013',
+            endDate:'28/06/2013',
+            targetInput:'targetInput5',
+            rangePicker:true
+        });
+
+        $scope.setRange = function (start, end) {
+            pickerko5.setRange(start, end);
+        }
+
+        $scope.getRange = function () {
+            alert(pickerko5.getRange());
+        }
+
+
+    }).controller('ProcessingCtrl', function ($scope) {
+        $scope.$on("$destroy", function(){
+            ctx.destroy();
+        });
+
     }).controller('EmptyPageCtrl', function ($scope) {
 
 
     });
+
+

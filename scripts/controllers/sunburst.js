@@ -87,9 +87,7 @@ angular.module('homepageApp')
                 .attr("transform", "translate(" + w / 2 + "," + h / 2 + "), rotate( " + angle + ")")
 
             svg.selectAll("textPath")
-                .transition()
-                .duration(450)
-                .attr("opacity", "0")
+                .remove();
         }
 
         // Distort the specified node to 80% of its parent.
@@ -110,11 +108,7 @@ angular.module('homepageApp')
             }
 
             svg.selectAll("text")
-                .transition()
-                .duration(750)
-                .attr("transform", function (d) {
-//                    return "translate(" + arc.centroid(d) + ")";
-                })
+                .remove();
 
 
             path.transition()
@@ -304,6 +298,4 @@ angular.module('homepageApp')
                 ]
             }
         }
-
-
-    })
+    });

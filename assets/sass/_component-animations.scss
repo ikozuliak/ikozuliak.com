@@ -2,6 +2,23 @@
 // Component animations
 // --------------------------------------------------
 
+.vyshyvanka{
+    @include transition(all 1s linear);
+    position: fixed;
+    z-index: 9999;
+    height: 100%;
+    width:26px;
+    right:0;
+    top:0;
+    background:url(../images/vyshyvanka-pattern.png) 100% 100% repeat-y;
+    background-color: #9f2729 ;
+}
+//.page:hover{
+//    .vyshyvanka{
+//        background-color: #1a9fab;
+//    }
+//}
+
 .fade {
     opacity: 0;
     @include transition(opacity .15s linear);
@@ -41,7 +58,6 @@
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    background: $white;
 }
 
 .page-toBottom {

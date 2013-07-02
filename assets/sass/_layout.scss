@@ -9,24 +9,22 @@
     padding-left: $gridGutterWidth;
 }
 
-
-html{
+html {
     overflow: hidden;
 }
 
 html,
-body{
+body {
     width: 100%;
     height: 100%;
     min-height: 100%;
 }
 
-
 body {
     font-size: 0.875em;
     font-family: 'PTSerif';
     color: $baseColor;
-    width:100%;
+    width: 100%;
     background: $baseColor;
 }
 
@@ -34,40 +32,40 @@ body {
     @include box-sizing(border-box);
 
     position: absolute;
-    top:0;
-    bottom:0;
-    left:144px;
-    right:0;
+    top: 0;
+    bottom: 0;
+    left: 144px;
+    right: 0;
     overflow: hidden;
 
-    @include respond-to(hideNav){
-        left:0;
+    @include respond-to(hideNav) {
+        left: 0;
     }
 
 }
 
-.like{
+.like {
     margin: 2em 0 0;
     position: relative;
-    font-size:1.5em;
+    font-size: 1.5em;
 
-    h3{
+    h3 {
         position: absolute;
-        top:50%;
-        left:0;
-        height:1em;
+        top: 50%;
+        left: 0;
+        height: 1em;
         margin: -.75em 0 0;
     }
 
-    ul{
+    ul {
         @include box-shadow(0 0 6px rgba(0, 0, 0, 0.2));
 
         position: relative;
         display: inline-block;
         margin-left: 5em;
-        background:#fff;
-        width:10em;
-        height:2.75em;
+        background: #fff;
+        width: 10em;
+        height: 2.75em;
 
         &:before,
         &:after {
@@ -92,28 +90,39 @@ body {
             left: auto;
         }
 
-        li{
+        li {
             text-transform: uppercase;
-            top:0;
+            top: 0;
             width: 10em;
-            height:1.5em;
+            height: 1.5em;
             padding: .75em 0 .5em;
             text-align: center;
             font-weight: bold;
             font-family: Arvo;
-            font-size:1em;
+            font-size: 1em;
             list-style: none;
             position: absolute;
             display: inline-block;
-            background:#f0f4f6;
+            background: #f0f4f6;
             color: $baseColor;
-            text-align:center;
+            text-align: center;
         }
     }
 
-    h3{
+    h3 {
         display: inline-block;
     }
+}
 
+.processing-container {
+    position: absolute;
+    top: 0;
+    height:100%;
+    overflow: hidden;
+    left: -144px;
+    right:0;
 
+    @include respond-to(hideNav) {
+        left: 0;
+    }
 }
