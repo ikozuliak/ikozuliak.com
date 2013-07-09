@@ -1,0 +1,49 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="components/sketchjs/js/sketch.min.js"></script>
+</head>
+<body ng-app="homepageApp">
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
+    today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
+    experience this site.</p>
+<![endif]-->
+
+<div class="navbar" ng-controller="MainCtrl">
+    <a class="logo" href="http://ikozuliak.com"></a>
+    <nav>
+        <ul>
+            <li><a href="http://ikozuliak.com">home</a></li>
+        </ul>
+    </nav>
+</div>
+
+<section id="content">
+    <article class="page">
+        <h1>Warpko</h1>
+        <h2>Hint: Try to click at the corners</h2>
+        <div id="container" style="position: absolute; top:-8px; overflow: hidden; left:-144px;"></div>
+    </article>
+</section>
+
+
+<script type="text/javascript" src="js/warp.v2.js"></script>
+</body>
+</html>
+
+
+

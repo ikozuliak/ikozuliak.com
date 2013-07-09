@@ -1,0 +1,148 @@
+<link rel="stylesheet" href="/components/Pickerko/css/pickerko.css">
+
+<article class="page" ng-controller="PickerkoCtrl">
+    <h3><a href="https://github.com/ikozuliak/Pickerko">Github project</a></h3>
+
+    <h1>Pickerko</h1>
+
+    <h2 class="subheader">A lightweight, easily customizable, datepicker plugin, written in MVC style with vanilla
+        JS. Why? Why not!?</h2>
+
+    <h2>Basic usage</h2>
+
+    <div class="row">
+        <div class="dropdown span4 handheld-block">
+            <input type="text" class="input-block-level" id="pickerko1"/>
+        </div>
+        <div class="span8 handheld-block">
+<pre class="prettyprint linenums">
+&lt;div class="dropdown" &gt;
+    &lt;input type="text" id="pickerko"/&gt;
+&lt;/div&gt;
+</pre>
+<pre class="prettyprint linenums">
+new Pickerko(document.getElementById('pickerko'))
+</pre>
+        </div>
+    </div>
+
+    <h2>Using as a component</h2>
+
+    <div class="row">
+        <div class="span4 handheld-block">
+            <input type="text" class="input-block-level" id="targetInput"/>
+
+            <div id="pickerko2"></div>
+        </div>
+
+        <div class="span8 handheld-block">
+<pre class="prettyprint linenums">
+&lt;input type="text" id="targetInput"/&gt;
+&lt;div id="pickerko"&gt;&lt;/div&gt;
+</pre>
+<pre class="prettyprint linenums">
+var container = document.getElementById('pickerko');
+var pickerko = new Pickerko(container, {
+    targetInput:'targetInput',
+});
+</pre>
+
+        </div>
+    </div>
+
+    <h2>Daterange picker, even in one window</h2>
+
+    <p>
+        Left click for start of period, right for the end.
+    </p>
+
+    <div class="row">
+        <div class="span4 handheld-block">
+            <input type="text" class="input-block-level" id="targetInput3"/>
+
+            <div id="pickerko3"></div>
+        </div>
+
+        <div class="span8 handheld-block">
+<pre class="prettyprint linenums">
+&lt;input type="text" id="targetInput"/&gt;
+&lt;div id="pickerko"&gt;&lt;/div&gt;
+</pre>
+<pre class="prettyprint linenums">
+var container = document.getElementById('pickerko');
+var pickerko = new Pickerko(container, {
+    startDate : '17/06/2013',
+    endDate : '26/06/2013',
+    targetInput:'targetInput3',
+    rangePicker:true
+});
+</pre>
+
+        </div>
+    </div>
+
+
+    <h2>Left-left click mode</h2>
+
+    <p>
+        The same as above, but in another style, first left click to choose period start and second one for end of
+        period.
+    </p>
+
+    <div class="row">
+        <div class="span4 handheld-block">
+            <input type="text" class="input-block-level" id="targetInput4"/>
+
+            <div id="pickerko4"></div>
+        </div>
+
+        <div class="span8 handheld-block">
+<pre class="prettyprint linenums">
+&lt;input type="text" id="targetInput"/&gt;
+&lt;div id="pickerko"&gt;&lt;/div&gt;
+</pre>
+<pre class="prettyprint linenums">
+var container = document.getElementById('pickerko');
+var pickerko = new Pickerko(container, {
+    startDate : '17/06/2013',
+    endDate : '26/06/2013',
+    targetInput:'targetInput3',
+    rangePicker:true,
+    rangeClickMode: 'left-left'
+});
+</pre>
+
+        </div>
+    </div>
+
+    <h2>API and callbacks</h2>
+
+    <div class="row">
+        <div class="span4 handheld-block">
+            <input type="text" class="input-block-level" id="targetInput5"/>
+
+            <button class="btn btn-block" ng-click="setRange('17/02/2013', '22/02/2013')">Set range to 17/02 - 22/02</button>
+            <br>
+            <button class="btn btn-block" ng-click="getRange()">Get range</button>
+            <br>
+            <div id="pickerko5"></div>
+
+        </div>
+        <div class="span8 handheld-block">
+<pre class="prettyprint linenums">
+pickerko5.setRange('17/02/2013', '22/02/2013')
+</pre>
+<pre class="prettyprint linenums">
+alert(pickerko5.getRange())
+</pre>
+<pre class="prettyprint linenums">
+new Pickerko(document.getElementById('pickerko'), {
+        onUpdate:function (newDate) {
+            alert('Date changed to ' + newDate);
+        }
+});</pre>
+        </div>
+
+    </div>
+
+</article>
