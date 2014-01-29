@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{HTTP_HOST} ^(www.)?ikozuliak\.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/ikozuliak/
+RewriteRule (.*) /ikozuliak/$1 [L]
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !\.(js|css|gif|jpg|jpeg|png|ico|swf|pdf|html|php|json)$
+RewriteRule (.*) /ikozuliak/$1 [L]

@@ -1,0 +1,79 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="homepageApp"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title ng-bind="title + ' / Iurii Kozuliak / Front End Developer '">Iurii Kozuliak / Front End Developer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="components/google-code-prettify/prettify.css">
+    <!-- endbuild -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-42175114-1', 'ikozuliak.com');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body >
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
+    today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
+    experience this site.</p>
+<![endif]-->
+
+
+<div class="navbar" ng-controller="NavCtrl">
+    <a class="icon-bar toggle-nav" ng-click="toggleNav()"></a>
+
+    <a class="logo" href="#/"></a>
+    <nav>
+        <ul>
+            <li ng-class="navClass('home')"><a href="#/">home</a></li>
+            <li ng-class="navClass('about')"><a href="#/about">about me</a></li>
+            <li ng-class="navClass('work')"><a href="#/work">blog</a></li>
+            <li ng-class="navClass('labs')"><a href="#/labs">labs</a></li>
+            <li ng-class="navClass('processing')"><a href="#/processing">processing</a></li>
+        </ul>
+    </nav>
+</div>
+
+<section id="content" class="transition-container"
+         ng-view
+         ng-animate="{enter: 'page-toBottom', leave: 'page-toTop'}">
+</section>
+
+<!--[if lt IE 9]>
+<script src="components/es5-shim/es5-shim.js"></script>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="components/angular/angular.min.js"></script>
+
+<!-- build:js scripts/scripts.js -->
+<script src="components/d3/d3.min.js"></script>
+<script src="components/Pickerko/js/moment.min.js"></script>
+<script src="components/Breezko/js/breezko.js"></script>
+<script src="components/google-code-prettify/prettify.js"></script>
+<script src="components/Pickerko/js/moment.min.js"></script>
+<script src="components/Pickerko/js/pickerko.min.js"></script>
+<script src="components/sketchjs/js/sketch.min.js"></script>
+<script src="components/responsive-tables/js/bootstrap-dropdown.js"></script>
+<script src="components/responsive-tables/js/bootstrap-responsive-tables.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<script src="scripts/controllers/sunburst.js"></script>
+<!-- endbuild -->
+</body>
+</html>

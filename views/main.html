@@ -1,0 +1,25 @@
+<article class="page page-landing">
+    <div class="sunburst-container" id="sunburst" ng-controller="SunburstCtrl"></div>
+
+    <div class="overlay">
+        <h1>Hello</h1>
+
+        <div class="hello">
+            My name is <strong>Iurii</strong>
+
+            <h2>I’m <strong>front End Developer</strong></h2>
+            at <strong>Clearcode</strong>, <i>Wroclaw</i> (PL) <br>
+            and i’m from <strong class="text-blue">ukr<span class="text-yellow">aine</span></strong>
+        </div>
+
+        <div class="like">
+            <h3>I like:</h3>
+            <ul id="breeze">
+                <li ng-repeat="like in likes" repeat-done="layoutDone()" ng-cloak>
+                    {{like}}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</article>
